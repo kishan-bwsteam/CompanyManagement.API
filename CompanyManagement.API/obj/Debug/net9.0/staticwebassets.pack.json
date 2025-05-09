@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "PackagePath": "staticwebassets\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif"
+    },
+    {
+      "Id": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "PackagePath": "staticwebassets\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif"
+    },
+    {
+      "Id": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "PackagePath": "staticwebassets\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CompanyManagement.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CompanyManagement.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.CompanyManagement.API.props",
+      "PackagePath": "build\\CompanyManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.CompanyManagement.API.props",
+      "PackagePath": "buildMultiTargeting\\CompanyManagement.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.CompanyManagement.API.props",
+      "PackagePath": "buildTransitive\\CompanyManagement.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

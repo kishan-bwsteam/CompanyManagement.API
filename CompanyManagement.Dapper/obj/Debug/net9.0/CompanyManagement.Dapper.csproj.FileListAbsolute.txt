@@ -1,0 +1,12 @@
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\bin\Debug\net9.0\CompanyManagement.Dapper.deps.json
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\bin\Debug\net9.0\CompanyManagement.Dapper.dll
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\bin\Debug\net9.0\CompanyManagement.Dapper.pdb
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.csproj.AssemblyReference.cache
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.AssemblyInfoInputs.cache
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.AssemblyInfo.cs
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.csproj.CoreCompileInputs.cache
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.dll
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\refint\CompanyManagement.Dapper.dll
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\CompanyManagement.Dapper.pdb
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Dapper\obj\Debug\net9.0\ref\CompanyManagement.Dapper.dll

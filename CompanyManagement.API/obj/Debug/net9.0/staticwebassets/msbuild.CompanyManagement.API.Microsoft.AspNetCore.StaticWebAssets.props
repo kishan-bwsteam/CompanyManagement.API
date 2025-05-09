@@ -1,0 +1,58 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\1cd7c86a-61dc-4022-b244-14098fb24200.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CompanyManagement.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CompanyManagement.API</BasePath>
+      <RelativePath>upload/1cd7c86a-61dc-4022-b244-14098fb24200.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eyrgj6jvzt</Fingerprint>
+      <Integrity>elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\1cd7c86a-61dc-4022-b244-14098fb24200.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CompanyManagement.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CompanyManagement.API</BasePath>
+      <RelativePath>upload/4991cc9c-b1fa-489f-9393-5930bc505fff.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0qjslep3cc</Fingerprint>
+      <Integrity>2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CompanyManagement.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CompanyManagement.API</BasePath>
+      <RelativePath>upload/aea2a85a-ba68-45ad-913a-e5f361702b55.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eyrgj6jvzt</Fingerprint>
+      <Integrity>elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

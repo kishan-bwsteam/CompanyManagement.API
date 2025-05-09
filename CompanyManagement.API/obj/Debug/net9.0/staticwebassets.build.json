@@ -1,0 +1,331 @@
+{
+  "Version": 1,
+  "Hash": "9+0mKpaPWkRQG+wg2dpNZ6XUZQHGQijXGcWyhXKMACo=",
+  "Source": "CompanyManagement.API",
+  "BasePath": "_content/CompanyManagement.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CompanyManagement.API\\wwwroot",
+      "Source": "CompanyManagement.API",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "BasePath": "_content/CompanyManagement.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "SourceId": "CompanyManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "BasePath": "_content/CompanyManagement.API",
+      "RelativePath": "upload/1cd7c86a-61dc-4022-b244-14098fb24200#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrgj6jvzt",
+      "Integrity": "elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "SourceId": "CompanyManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "BasePath": "_content/CompanyManagement.API",
+      "RelativePath": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0qjslep3cc",
+      "Integrity": "2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif"
+    },
+    {
+      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "SourceId": "CompanyManagement.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "BasePath": "_content/CompanyManagement.API",
+      "RelativePath": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55#[.{fingerprint}]?.jfif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eyrgj6jvzt",
+      "Integrity": "elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "upload/1cd7c86a-61dc-4022-b244-14098fb24200.eyrgj6jvzt.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:18:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrgj6jvzt"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/1cd7c86a-61dc-4022-b244-14098fb24200.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI="
+        }
+      ]
+    },
+    {
+      "Route": "upload/1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:18:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI="
+        }
+      ]
+    },
+    {
+      "Route": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff.0qjslep3cc.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0qjslep3cc"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4="
+        }
+      ]
+    },
+    {
+      "Route": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:09:33 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2M9CP58bWgkkC+Lx3sF7LTbhmiNyJlz38M6TPcxD9T4="
+        }
+      ]
+    },
+    {
+      "Route": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55.eyrgj6jvzt.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eyrgj6jvzt"
+        },
+        {
+          "Name": "label",
+          "Value": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55.jfif"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI="
+        }
+      ]
+    },
+    {
+      "Route": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/pjpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 13:08:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI="
+        }
+      ]
+    }
+  ]
+}
