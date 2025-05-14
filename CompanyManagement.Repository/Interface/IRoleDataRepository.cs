@@ -7,7 +7,7 @@ namespace Datas.Abstract
  public interface IRoleDataRepository
        {
         //----------------------------------- Save Update Role --------------------------
-        RoleResponse SaveUpdate(RoleResponse model);
+        RoleResponse SaveUpdate(RoleModel model, int ActionBy);
 
 
         //----------------------------------- Get All  Role Data by roleViewModels ---------------------

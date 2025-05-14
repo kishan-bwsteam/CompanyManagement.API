@@ -8,18 +8,12 @@ namespace BussinessObject
 {
    public class RoleModel
     {
-
-        //--------------------------------------- Role Model ----------------------------------
         public int RoleID { get; set; }
-   
+
         public string RoleName { get; set; }
         public int RoleLevel { get; set; }
-        public string Abberivation { get; set; }
-
-
-
+        public string Abbreviation { get; set; }
         public int userID { get; set; }
-        public int companyID { get; set; }
     }
 
 

@@ -25,6 +25,15 @@ namespace Dto.Model
         public IEnumerable<UserEducation> UserEducation { get; set; }
         public UserBankDetail UserBankDetail { get; set; }
     }
+    public class AdminUser:UserBasic
+    {
+        public string EmailId { get; set; }
+        public string PhoneNumber { get; set; }
+        public int CompanyId { get; set; }
+        public DateTime DOB { get; set; }
+        public UserPassKey? userPassKey { get; set; }
+        public UserAddress Address { get; set; }
+    }
     public class EmployeeDetail
     {
         public int? EmpId { get; set; }
@@ -48,7 +57,7 @@ namespace Dto.Model
         public string LastName { get; set; }
         public string MiddleName { get; set; }
         public string UserName { get; set; }
-        public int UserTypeID { get; set; }
+        public int? UserTypeID { get; set; }
         public int ParentUserID { get; set; }
         public bool isActive { get; set; }
 
@@ -65,13 +74,16 @@ namespace Dto.Model
 	public class UserAddress
 	{
         public int UserAddressId { get; set; }
+        public string? UserAddressTypeName { get; set; }
         public int UserID { get; set; }
         public int AddressTypeID { get; set; }
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
         public string City { get; set; }
         public int StateId { get; set; }
+        public string? StateName { get; set; }
         public int CountryId { get; set; }
+        public string? CountryName { get; set; }
         public string ZipCode { get; set; }
     }
 	public class UserEducation

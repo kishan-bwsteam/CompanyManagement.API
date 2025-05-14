@@ -1,6 +1,7 @@
 using CompanyManagement.Data.Datas.Abstract;
 using CompanyManagement.Data.Datas.Concrete;
 using CompanyManagement.Datas.Concrete;
+using CompanyManagement.Domain.Shared;
 using CompanyManagement.Repository.Interface;
 using CompanyManagement.Repository.Repositories;
 using CompanyManagement.Service.Interface;
@@ -35,6 +36,9 @@ services.AddScoped(typeof(HttpClient), typeof(HttpClient));
 services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 services.AddTransient<IDbConnection>(sp =>
     new SqlConnection(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+services.AddAutoMapper(typeof(MappingProfile).Assembly);
+
 
 services.AddTransient<IDatabaseContext, DatabaseContext>();
 services.AddTransient<ITransitTimeOperationService, TransitTimeOperationService>();
@@ -170,12 +174,6 @@ builder.Services.AddCors(
     });
 
 
-//builder.WebHost.ConfigureKestrel(serverOptions =>
-//{
-//    serverOptions.ListenAnyIP(5000); // HTTP
-//    serverOptions.ListenAnyIP(5001, listenOptions => listenOptions.UseHttps()); // HTTPS
-//});
-
 
 var app = builder.Build();
 
@@ -186,11 +184,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-//Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
 app.UseStaticFiles();
 app.UseRouting();
 app.UseHttpsRedirection();

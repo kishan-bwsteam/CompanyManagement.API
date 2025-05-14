@@ -54,7 +54,7 @@ namespace CompanyManagement.Service.Services
                 return new Response() { Status = 400, Message = "Somthing went wrong!!" };
             }
         }
-        public EmployeeModel Get(int id)
+        public EmployeeModel GetByEmpId(int id)
         {
             DataTable filters = null;
             filters = new DataTable("filter_type");
@@ -72,8 +72,30 @@ namespace CompanyManagement.Service.Services
             emp.UserBankDetail = _empBankService.GetByUserId(emp.UserID.GetValueOrDefault());
             return emp;
         }
+        public EmployeeModel GetByUserId(int id)
+        {
+            DataTable filters = null;
+            filters = new DataTable("filter_type");
+            filters.Columns.Add("operator", typeof(string));
+            filters.Columns.Add("col", typeof(string));
+            filters.Columns.Add("condition", typeof(string));
+            filters.Columns.Add("val", typeof(string));
 
+            filters.Rows.Add("AND", "UserId", "=", id);
+            EmployeeModel emp = _empRepo.Get(filters, 1, 0).FirstOrDefault();
+            if (emp == null) return null;
+            emp.UserBasic = _userService.GetByUserId(emp.UserID.GetValueOrDefault());
+            emp.UserEducation = _empEducationService.GetByUserId(emp.UserID.GetValueOrDefault());
+            emp.UserAddress = _empAddressService.GetByUserId(emp.UserID.GetValueOrDefault());
+            emp.UserBankDetail = _empBankService.GetByUserId(emp.UserID.GetValueOrDefault());
+            return emp;
+        }
 
+        public Response Delete(int EmpId, int ActionBy)
+        {
+            var result = _empRepo.Delete(EmpId, ActionBy);
+            return result;
+        }
 
     }
 }

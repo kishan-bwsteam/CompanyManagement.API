@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v9.0": {
       "CompanyManagement.API/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
           "CompanyManagement.Dapper": "1.0.0",
           "CompanyManagement.Domain": "1.0.0",
           "CompanyManagement.Repository": "1.0.0",
@@ -19,6 +20,17 @@
         },
         "runtime": {
           "CompanyManagement.API.dll": {}
+        }
+      },
+      "AutoMapper/14.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "9.0.0"
+        },
+        "runtime": {
+          "lib/net8.0/AutoMapper.dll": {
+            "assemblyVersion": "14.0.0.0",
+            "fileVersion": "14.0.0.0"
+          }
         }
       },
       "Azure.Core/1.38.0": {
@@ -655,6 +667,7 @@
       },
       "CompanyManagement.Domain/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
           "Microsoft.AspNetCore.Http": "2.3.0"
         },
         "runtime": {
@@ -678,6 +691,7 @@
       },
       "CompanyManagement.Service/1.0.0": {
         "dependencies": {
+          "AutoMapper": "14.0.0",
           "CompanyManagement.Domain": "1.0.0",
           "CompanyManagement.Repository": "1.0.0",
           "EPPlus": "8.0.1",
@@ -698,6 +712,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/14.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OC+1neAPM4oCCqQj3g2GJ2shziNNhOkxmNB9cVS8jtx4JbgmRzLcUOxB9Tsz6cVPHugdkHgCaCrTjjSI0Z5sCQ==",
+      "path": "automapper/14.0.0",
+      "hashPath": "automapper.14.0.0.nupkg.sha512"
     },
     "Azure.Core/1.38.0": {
       "type": "package",

@@ -83,6 +83,7 @@ C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.csproj.CoreCompileInputs.cache
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.sourcelink.json
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\scopedcss\bundle\CompanyManagement.API.styles.css
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\staticwebassets.development.json
@@ -100,3 +101,4 @@ C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.pdb
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\CompanyManagement.API.genruntimeconfig.cache
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\obj\Debug\net9.0\ref\CompanyManagement.API.dll
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.API\bin\Debug\net9.0\AutoMapper.dll
