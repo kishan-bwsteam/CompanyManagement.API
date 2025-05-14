@@ -15,12 +15,12 @@ namespace CompanyManagement.Controllers.EmployeeController
     public class EmpAddressController : ControllerBase
     {
         private readonly IEmpAddressService _iempAddressService;
-       // private readonly IConfiguration _config;
+        // private readonly IConfiguration _config;
 
         public EmpAddressController(IEmpAddressService _empAddressService, IConfiguration config)
         {
             _iempAddressService = _empAddressService;
-          //  _config = config;
+            //  _config = config;
         }
 
 
@@ -41,7 +41,7 @@ namespace CompanyManagement.Controllers.EmployeeController
 
 
         [HttpGet]
-       // [Route("GetAddressDetails/")]
+        // [Route("GetAddressDetails/")]
         public AddressViewModel GetAddress()
         {
             try
@@ -56,7 +56,7 @@ namespace CompanyManagement.Controllers.EmployeeController
 
         //----------------------------Get Single Address by UserAddressID-------------------------------
         [HttpGet("User/{UserId}")]
-       
+
 
         public singleAddressViewModel GetSingle(int UserId)
         {
@@ -73,7 +73,7 @@ namespace CompanyManagement.Controllers.EmployeeController
 
         //----------------------------Delete Address by UserAddressID-------------------------------
 
-        [HttpDelete]
+        [HttpDelete("{UserAddressID}")]
     
         public Response Delete(int UserAddressID)
         {

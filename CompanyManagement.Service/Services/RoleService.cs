@@ -24,11 +24,11 @@ namespace Service.Concrete
 
         //----------------------------------- Save Update Role --------------------------
 
-        public RoleResponse SaveUpdate(RoleResponse model)
+        public RoleResponse SaveUpdate(RoleModel model, int ActionBy)
         {
             try
             {
-                return _iroleDataRepository.SaveUpdate(model);
+                return _iroleDataRepository.SaveUpdate(model, ActionBy);
             }
             catch (Exception ex)
             {

@@ -1,12 +1,184 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.service\\services\\createuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\createuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.domain\\shared\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\shared\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "RelativeToolTip": "CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:03:21.331Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CompanyManagement.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T12:00:01.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAFIBAAAAAAAAAAAqwHkBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T07:36:12.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:58:30.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICreateUserAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:09:05.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICreateUserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:08:52.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateUserAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowD0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:06:21.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
+              "RelativeToolTip": "CompanyManagement.Domain\\Model\\UserModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:05:06.423Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreateUserAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:45:44.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAApwEsAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:45:33.381Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

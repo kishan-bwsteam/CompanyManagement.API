@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C4Mqf4aOnOk=",
+  "dgSpecHash": "A3iE15E47n8=",
   "success": true,
   "projectFilePath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",

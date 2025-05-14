@@ -38,7 +38,7 @@
   {
     "ContainingType": "CompanyManagement.Controllers.EmployeeController.EmpAddressController",
     "Method": "Delete",
-    "RelativePath": "api/Address",
+    "RelativePath": "api/Address/{UserAddressID}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -46,7 +46,7 @@
       {
         "Name": "UserAddressID",
         "Type": "System.Int32",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": [
@@ -716,41 +716,32 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "Dto.Model.CreateUserAdminModel",
+        "Type": "Dto.Model.AdminUser",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.Common.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.CreateAdminUser.CreateUserAdminController",
-    "Method": "GetAll",
+    "Method": "GetAdminUsers",
     "RelativePath": "api/CreateUser",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
+    "Parameters": [
       {
-        "Type": "Dto.Model.createViewUserAdminModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startingRow",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.CreateAdminUser.CreateUserAdminController",
@@ -792,17 +783,7 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.singlecreateViewUserAdminModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.Department.DepartmentController",
@@ -1333,13 +1314,34 @@
   {
     "ContainingType": "CompanyManagement.API.Controllers.EmployeeController",
     "Method": "Get",
-    "RelativePath": "api/Employee/{UserId}",
+    "RelativePath": "api/Employee",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "UserId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EmpId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.EmployeeController",
+    "Method": "Delete",
+    "RelativePath": "api/Employee/{EmpId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EmpId",
         "Type": "System.Int32",
         "IsRequired": true
       }
@@ -3122,21 +3124,11 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "Dto.Responses.RoleResponse",
+        "Type": "BussinessObject.RoleModel",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Responses.RoleResponse",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.RoleController",

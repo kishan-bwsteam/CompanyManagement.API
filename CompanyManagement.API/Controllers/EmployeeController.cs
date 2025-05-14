@@ -43,11 +43,29 @@ namespace CompanyManagement.API.Controllers
         }
 
 
-        [HttpGet("{UserId}")]
-        public IActionResult Get(int UserId)
+        [HttpGet]
+        public IActionResult Get([FromQuery]int? UserId,int? EmpId)
         {
-            var emp = _empService.Get(UserId);
+            if (UserId == null && EmpId == null) return NotFound();
+            EmployeeDetail emp;
+            if (EmpId != null)
+            {
+                emp = _empService.GetByEmpId(EmpId.GetValueOrDefault());
+            }
+            else
+            {
+                emp = _empService.GetByUserId(UserId.GetValueOrDefault());
+            }
             return Ok(emp);
+        }
+        [HttpDelete("{EmpId}")]
+        [Authorize]
+        public IActionResult Delete(int EmpId)
+        {
+            var id = User.FindFirst("userID").Value;
+            var actionBy = Int32.Parse(id);
+            var result = _empService.Delete(EmpId, actionBy);
+            return Ok(result);
         }
     }
 }

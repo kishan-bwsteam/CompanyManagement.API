@@ -1,5 +1,6 @@
 ﻿using BussinessObject;
 using Dto.Responses;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -29,17 +30,15 @@ namespace CompanyManagement.Controllers
 
         //----------------------------------- Save Update Role --------------------------
         [HttpPost]
+        [Authorize]
 
-        public RoleResponse SaveUpdate([FromBody] RoleResponse model)
+        public IActionResult SaveUpdate([FromBody] RoleModel model)
         {
-            try
-            {
-                return _iroleService.SaveUpdate(model);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+
+            var id = User.FindFirst("userID").Value;
+            var actionBy = Int32.Parse(id);
+            var res = _iroleService.SaveUpdate(model,actionBy);
+            return Ok(res);
         }
 
 

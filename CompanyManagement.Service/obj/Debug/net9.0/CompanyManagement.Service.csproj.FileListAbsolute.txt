@@ -12,6 +12,7 @@ C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Ser
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyManagement.Service.AssemblyInfoInputs.cache
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyManagement.Service.AssemblyInfo.cs
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyManagement.Service.csproj.CoreCompileInputs.cache
+C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyManagement.Service.sourcelink.json
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyM.E8F71CD0.Up2Date
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\CompanyManagement.Service.dll
 C:\Users\BWS-11-Windows\source\repos\CompanyManagement.API\CompanyManagement.Service\obj\Debug\net9.0\refint\CompanyManagement.Service.dll

@@ -24,7 +24,7 @@ namespace Datas.Concrete
         }
 
 		//----------------------------------- Save Update Role --------------------------
-		public RoleResponse SaveUpdate(RoleResponse model)
+		public RoleResponse SaveUpdate(RoleModel model,int ActionBy)
 
 		{
 			RoleResponse response = new RoleResponse();
@@ -34,14 +34,9 @@ namespace Datas.Concrete
 				parameters.Add("@RoleID", model.RoleID);
 				parameters.Add("@RoleName", model.RoleName);
 				parameters.Add("@RoleLevel", model.RoleLevel);
-				parameters.Add("@Abberivation", model.Abberivation);
-				parameters.Add("@CreatedBy", model.userID);
-				parameters.Add("@UpdatedBy", model.userID);
-				//parameters.Add("@companyID", model.companyID);
+				parameters.Add("@Abbreviation", model.Abbreviation);
+                parameters.Add("@ActionBy", ActionBy);
 				parameters.Add("@UserID",model.userID);
-				//parameters.Add("@CompanyID", model.CompanyID);
-				//parameters.Add("@UpdatedBy", model.userID);
-				//parameters.Add("@CreatedBy", model.userID);
 				parameters.Add("@Status", 0, DbType.Int32, ParameterDirection.Output);
 				parameters.Add("@Message", "", DbType.String, ParameterDirection.Output);
 

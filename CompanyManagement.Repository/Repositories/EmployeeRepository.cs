@@ -133,5 +133,30 @@ namespace CompanyManagement.Repository.Repositories
                 throw new Exception("General Error: " + ex.Message, ex);
             }
         }
+        public Response Delete(int EmpId, int ActionBy)
+        {
+            try
+            {
+                var parameters = new DynamicParameters();
+                parameters.Add("@ActionBy", ActionBy);
+                parameters.Add("@EmpId", EmpId);
+                var result = _idb_context.Execute("DeleteEmployee",
+                                                    parameters,
+                                                    commandType: CommandType.StoredProcedure);
+                if (result > 0)
+                {
+                    return new Response() { Status = 200, Message = "Employee Deleted" };
+                }
+                else
+                {
+                    return new Response() { Status = 400, Message = "Somthing went wrong!!" };
+
+                }
+            }
+            catch (Exception ex)
+            {
+                return new Response() { Status = 500, Message = ex.Message };
+            }
+        }
     }
 }

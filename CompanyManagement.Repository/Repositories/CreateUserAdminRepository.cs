@@ -8,6 +8,7 @@ using SqlDapper.Concrete;
 using System;
 using System.Data;
 using Microsoft.Data.SqlClient;
+using CompanyManagement.Domain.Model;
 
 
 
@@ -23,46 +24,45 @@ namespace Datas.Concrete
         }
 
 		//----------------------------Save Update Admin User-------------------------------------
-		public Response SaveUpdate(CreateUserAdminModel model)
+		public Response SaveUpdate(AdminUser model, int ActionBy)
 
-		{
+        {
 
 			Response response = new Response();
 			try
 			{
 				DynamicParameters parameters = CommonRepository.GetLogParameters();
 				parameters.Add("@UserID", model.UserID);
-				parameters.Add("@UserTypeID", model.UserTypeID);
 				parameters.Add("@FirstName", model.FirstName);
 				parameters.Add("@MiddleName", model.MiddleName);
 				parameters.Add("@LastName", model.LastName);
 				parameters.Add("@UserName ", model.UserName);
-				parameters.Add("@UpdatedBy", model.UserID);
-				parameters.Add("@LoginUserID", model.UserID);
+				parameters.Add("@LoginUserID", ActionBy);
 				//parameters.Add("@UserGuid", model.UserGuid);
 				parameters.Add("@DOB", model.DOB);
-				parameters.Add("@IsDeleted", model.IsDeleted);
-				parameters.Add("@EmailID ", model.EmailID);
-				parameters.Add("@CreatedBy", model.CreatedBy);
-				parameters.Add("@PrimaryPhoneNo", model.PhoneNo);
-				parameters.Add("@CompanyID", model.CompanyID);
-				parameters.Add("@City", model.City);
-				parameters.Add("@ZipCode",model.ZipCode);
-				parameters.Add("@State", model.State);
-				parameters.Add("@Country", model.Country);
+				//parameters.Add("@IsDeleted", model.IsDeleted);
+				parameters.Add("@EmailID ", model.EmailId);
+				parameters.Add("@PrimaryPhoneNo", model.PhoneNumber);
+				parameters.Add("@CompanyID", model.CompanyId);
+				parameters.Add("@AddressLine1", model.Address.AddressLine1);
+				parameters.Add("@AddressLine2", model.Address.AddressLine2);
+                parameters.Add("@City", model.Address.City);
+				parameters.Add("@ZipCode",model.Address.ZipCode);
+				parameters.Add("@StateId", model.Address.StateId);
+				parameters.Add("@CountryId", model.Address.CountryId);
 
-				parameters.Add("@PassKey", model.PassKey);
-				parameters.Add("@SaltKey", model.SaltKey);
-				parameters.Add("@SaltKeyIV", model.SaltKeyIV);
-				parameters.Add("@Status", model.Status);
-				parameters.Add("@Message",model.Message);
+				parameters.Add("@PassKey", model.userPassKey.PassKey);
+				parameters.Add("@SaltKey", model.userPassKey.SaltKey);
+				parameters.Add("@SaltKeyIV", model.userPassKey.SaltKeyIV);
+                parameters.Add("@status", 0, DbType.Int32, ParameterDirection.Output);
+                parameters.Add("@message", "", DbType.String, ParameterDirection.Output);
 
 
 				var result = _idb_context.Query<CreateUserAdminModel>("SaveUpdateAdminUser", parameters, null, CommandType.StoredProcedure);
 				if (result != null)
 				{
-					response.Status = parameters.Get<int>("Status");
-					response.Message = parameters.Get<string>("Message");
+					response.Status = parameters.Get<int>("status");
+					response.Message = parameters.Get<string>("message");
 				}
 
 			}
@@ -86,12 +86,48 @@ namespace Datas.Concrete
 
 			return response;
 		}
+        public PaginatedResult<AdminUser> Get(DataTable filters, int limit, int startingRow)
+        {
+            PaginatedResult<AdminUser> result = new PaginatedResult<AdminUser>();
+            try
+            {
+                var parameters = new DynamicParameters();
+
+                // Pass the filter DataTable as a table-valued parameter
+                if (filters == null)
+                {
+                    filters = new DataTable("filter_type");
+                    filters.Columns.Add("operator", typeof(string));
+                    filters.Columns.Add("col", typeof(string));
+                    filters.Columns.Add("condition", typeof(string));
+                    filters.Columns.Add("val", typeof(string));
+                }
+
+                parameters.Add("@filters", filters.AsTableValuedParameter("filter_type"));
+                parameters.Add("@limit", limit);
+                parameters.Add("@startingRow", startingRow);
+                parameters.Add("@totalRecords", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+                result.Data = _idb_context.Query<AdminUser>("GetAdminUser", parameters, commandType: CommandType.StoredProcedure);
+                result.TotalRecords = parameters.Get<int>("@totalRecords");
+                return result;
+            }
+            catch (SqlException ex)
+            {
+                // Log and rethrow or handle as needed
+                throw new Exception("SQL Error: " + ex.Message, ex);
+            }
+            catch (Exception ex)
+            {
+                // Log and rethrow or handle as needed
+                throw new Exception("General Error: " + ex.Message, ex);
+            }
+        }
 
 
+        //------------------------- Admin User by createViewUserAdminModel (list)------------------------
 
-		//------------------------- Admin User by createViewUserAdminModel (list)------------------------
-
-		public createViewUserAdminModel GetAll()
+        public createViewUserAdminModel GetAll()
 		
 		{
 			createViewUserAdminModel report = new createViewUserAdminModel();

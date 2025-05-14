@@ -11,6 +11,8 @@ namespace CompanyManagement.Service.Interface
     public interface IEmployeeService
     {
         Response Create(EmployeeModel emp);
-        EmployeeModel Get(int id);
+        EmployeeModel GetByEmpId(int id);
+        EmployeeModel GetByUserId(int id);
+        Response Delete(int EmpId, int ActionBy);
     }
 }

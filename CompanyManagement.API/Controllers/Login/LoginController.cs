@@ -93,7 +93,7 @@ namespace CompanyManagement.Login
                     issuer: _config["Jwt:Issuer"],
                     audience: _config["Jwt:Audience"],
                     claims: claims,
-                    expires: DateTime.Now.AddMinutes(300),
+                    expires: DateTime.Now.AddDays(1),
                     signingCredentials: credentials
                 );
                 return new JwtSecurityTokenHandler().WriteToken(token);

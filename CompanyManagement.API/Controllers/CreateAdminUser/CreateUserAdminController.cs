@@ -1,98 +1,88 @@
 ﻿using Dto.Model;
 using Dto.Model.Common;
-
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Service.Abstract;
 using System;
+using System.Collections.Generic;
 
 
 namespace CompanyManagement.Controllers.CreateAdminUser
 {
-	[Route("api/CreateUser/")]
-	[ApiController]
-	public class CreateUserAdminController : ControllerBase
-	{
+    [Route("api/CreateUser/")]
+    [ApiController]
+    public class CreateUserAdminController : ControllerBase
+    {
 
-		private readonly ICreateUserAdminService _icreateUserAdminservice;
-		private readonly IConfiguration _config;
-		public CreateUserAdminController(ICreateUserAdminService _createUserAdminservice, IConfiguration config)
-		{
-			_icreateUserAdminservice = _createUserAdminservice;
-			_config = config;
-		}
-
-
-
-		//----------------------------Save Update Admin User-------------------------------------
-
-		[HttpPost]
-
-		public Response SaveUpdate(CreateUserAdminModel model)
-		{
-			try
-			{
-
-				return _icreateUserAdminservice.SaveUpdate(model);
-			}
-			catch (Exception ex)
-			{
-				throw ex;
-			}
-		}
+        private readonly ICreateUserAdminService _icreateUserAdminservice;
+        private readonly IConfiguration _config;
+        public CreateUserAdminController(ICreateUserAdminService _createUserAdminservice, IConfiguration config)
+        {
+            _icreateUserAdminservice = _createUserAdminservice;
+            _config = config;
+        }
 
 
-		//------------------------- Admin User by createViewUserAdminModel (list)------------------------ 
+
+        //----------------------------Save Update Admin User-------------------------------------
+
+        [HttpPost]
+        [Authorize]
+        public IActionResult SaveUpdate(AdminUser model)
+        {
+            var id = User.FindFirst("userID").Value;
+            var actionBy = Int32.Parse(id);
+            var res = _icreateUserAdminservice.SaveUpdate(model, actionBy);
+            return Ok(res);
+        }
 
 
-		[HttpGet]
-		public createViewUserAdminModel GetAll()
-		{
-			try
-			{
-				return _icreateUserAdminservice.GetAll();
-			}
-			catch (Exception ex)
-			{
-				throw ex;
-			}
-		}
+        //------------------------- Admin User by createViewUserAdminModel (list)------------------------ 
 
 
-		//-------------------------------Single user Get by userID--------------------------------
+        [HttpGet]
+        [Authorize]
+        public IActionResult GetAdminUsers(int? limit,int? startingRow)
+        {
+            var id = User.FindFirst("userID").Value;
+            var adminId = Int32.Parse(id);
+            var res = _icreateUserAdminservice.GetAdmins(adminId,limit.GetValueOrDefault(10),startingRow.GetValueOrDefault());
+            return Ok(res);
+        }
 
 
-		[HttpGet("User/{UserID}")]
-		//[Route("GetSingleUserData/{UserID}")]
-		public singlecreateViewUserAdminModel GetSingle(int userID)
-		{
-			try
-			{
-				return _icreateUserAdminservice.GetSingle(userID);
-			}
-			catch (Exception ex)
-			{
-				throw ex;
-			}
-		}
+        //-------------------------------Single user Get by userID--------------------------------
 
 
-		//--------------------------------Delete User by UserID-------------------------------------------
+        [HttpGet("User/{UserID}")]
+        [Authorize]
 
-		[HttpDelete("{UserID}")]
-		
-		public Response Delete(int userID)
-		{ 
-			try
-			{
-				return _icreateUserAdminservice.Delete(userID);
-			}
-			catch (Exception ex)
-			{
-				throw ex;
-			}
-		}
+        public IActionResult GetSingle(int userID)
+        {
+            var id = User.FindFirst("userID").Value;
+            var adminId = Int32.Parse(id);
+            var res = _icreateUserAdminservice.GetAdmin(adminId,userID);
+            return Ok(res);
+        }
 
-	
-	}
+
+        //--------------------------------Delete User by UserID-------------------------------------------
+
+        [HttpDelete("{UserID}")]
+
+        public Response Delete(int userID)
+        {
+            try
+            {
+                return _icreateUserAdminservice.Delete(userID);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+
+    }
 }
