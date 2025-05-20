@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IoBM/C5i6hpgtly4MVMiRGSW0bjg9mRCJuJ5ssqHPxg=",
+  "Hash": "z+ZXjPCstYf114qW722v056im9+aOHIRthDOPG0sHMk=",
   "Source": "CompanyManagement.API",
   "BasePath": "_content/CompanyManagement.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "CompanyManagement.API\\wwwroot",
       "Source": "CompanyManagement.API",
-      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
       "BasePath": "_content/CompanyManagement.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
+      "Identity": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
       "SourceId": "CompanyManagement.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
       "BasePath": "_content/CompanyManagement.API",
       "RelativePath": "upload/0f059135-01dc-4254-906a-0ec3d45c9bee#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif"
     },
     {
-      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "Identity": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
       "SourceId": "CompanyManagement.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
       "BasePath": "_content/CompanyManagement.API",
       "RelativePath": "upload/1cd7c86a-61dc-4022-b244-14098fb24200#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif"
     },
     {
-      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "Identity": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
       "SourceId": "CompanyManagement.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
       "BasePath": "_content/CompanyManagement.API",
       "RelativePath": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif"
     },
     {
-      "Identity": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "Identity": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
       "SourceId": "CompanyManagement.API",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\",
       "BasePath": "_content/CompanyManagement.API",
       "RelativePath": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55#[.{fingerprint}]?.jfif",
       "AssetKind": "All",
@@ -104,7 +104,7 @@
   "Endpoints": [
     {
       "Route": "upload/0f059135-01dc-4254-906a-0ec3d45c9bee.0qjslep3cc.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -125,7 +125,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 09:35:18 GMT"
+          "Value": "Wed, 14 May 2025 13:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -149,7 +149,7 @@
     },
     {
       "Route": "upload/0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\0f059135-01dc-4254-906a-0ec3d45c9bee.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 12 May 2025 09:35:18 GMT"
+          "Value": "Wed, 14 May 2025 13:19:51 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -186,7 +186,7 @@
     },
     {
       "Route": "upload/1cd7c86a-61dc-4022-b244-14098fb24200.eyrgj6jvzt.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:18:27 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -231,7 +231,7 @@
     },
     {
       "Route": "upload/1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\1cd7c86a-61dc-4022-b244-14098fb24200.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -252,7 +252,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:18:27 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -268,7 +268,7 @@
     },
     {
       "Route": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff.0qjslep3cc.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -289,7 +289,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:09:33 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -313,7 +313,7 @@
     },
     {
       "Route": "upload/4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\4991cc9c-b1fa-489f-9393-5930bc505fff.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -334,7 +334,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:09:33 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -350,7 +350,7 @@
     },
     {
       "Route": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55.eyrgj6jvzt.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,7 +371,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:08:48 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -395,7 +395,7 @@
     },
     {
       "Route": "upload/aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
-      "AssetFile": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
+      "AssetFile": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\wwwroot\\upload\\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -416,7 +416,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 13:08:48 GMT"
+          "Value": "Wed, 14 May 2025 12:16:48 GMT"
         },
         {
           "Name": "Cache-Control",

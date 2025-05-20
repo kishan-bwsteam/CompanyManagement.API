@@ -11,8 +11,9 @@ namespace CompanyManagement.Service.Interface
 {
     public interface IAdminService
     {
-        Response SaveUpdate(MultiformModel model);
-        PaginatedResult<UserBasic> GetAdminList(int limit = 10, int startingRow = 0);
-
+        Response SaveUpdate(AdminDetails model,int ActionBy);
+        PaginatedResult<AdminDetails> GetAdminList(int limit = 10, int startingRow = 0, string? search = null);
+        AdminDetails GetAdmin(int AdminId);
+        Response DeleteAdmin(int AdminId);
     }
 }

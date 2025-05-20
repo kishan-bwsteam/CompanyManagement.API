@@ -9,11 +9,11 @@ namespace Dto.Model
 
 
     //---------------------------------------------------- Multi form Model ---------------------------------------------
-  public  class MultiformModel
+    public  class MultiformModel
     {
         public ManageFranchise  ManageFranchise{ get; set; }
         public Credential? Credential { get; set; }
-        public List<Companys> Companys { get; set; }
+        public IEnumerable<CompanyModel> Companys { get; set; }
         public string? PassKey { get; set; }
         public string? SaltKey { get; set; }
         public string? SaltKeyIV { get; set; }
@@ -22,7 +22,7 @@ namespace Dto.Model
 
     }
 
-
+    
     //-------------------------------------------------manage Franchise -----------------------------------------------------
     public class ManageFranchise
     {
@@ -37,6 +37,7 @@ namespace Dto.Model
         public string City { get; set; }
         public int State { get; set; }
         public int ZipCode { get; set; }
+        public string UserName { get; set; }
     }
 
     //------------------------------------------------------- user Credetial model-------------------------------------------------------
@@ -72,11 +73,6 @@ namespace Dto.Model
         public int CreatedBy { get; set; }
         public DateTime UpdatedOn { get; set; }
         public int UpdatedBy { get; set; }
-
-
-
-
-
 
     }
     

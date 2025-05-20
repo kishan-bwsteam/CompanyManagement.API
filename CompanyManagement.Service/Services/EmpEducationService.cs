@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -15,7 +15,7 @@ namespace Service.Concrete
 {
     public  class EmpEducationService: IEmpEducationService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly IEmpEducationRepository _iempEducationRepository;
         public EmpEducationService(IEmpEducationRepository _empEducationRepository)

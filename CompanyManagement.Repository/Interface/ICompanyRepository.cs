@@ -1,4 +1,5 @@
-﻿using Dto.Model;
+﻿using CompanyManagement.Domain.Model;
+using Dto.Model;
 using Dto.Model.Common;
 using System.Data;
 
@@ -8,7 +9,7 @@ namespace Datas.Abstract
     {
         //DropdownListModel GetAllCompany(int companyId);
         //---------------------------------Get All Company By UserID & CompanyID--------------------------------
-        IEnumerable<CompanyModel> Get(DataTable filters, int limit, int startingRow);
+        PaginatedResult<CompanyModel> Get(DataTable filters, int limit, int startingRow);
         DropdownListModel Get(int companyID);
         //---------------------------------Get All Company By UserID--------------------------------
         DropdownListModel GetAll(int userID);

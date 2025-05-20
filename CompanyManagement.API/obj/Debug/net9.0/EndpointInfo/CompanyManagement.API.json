@@ -55,41 +55,24 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/MultiformModel"
+                "$ref": "#/components/schemas/AdminDetails"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/MultiformModel"
+                "$ref": "#/components/schemas/AdminDetails"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/MultiformModel"
+                "$ref": "#/components/schemas/AdminDetails"
               }
             }
           }
         },
         "responses": {
           "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/Response"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Response"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/Response"
-                }
-              }
-            }
+            "description": "OK"
           }
         }
       },
@@ -109,6 +92,57 @@
           {
             "name": "startingRow",
             "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "search",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Admin/{AdminId}": {
+      "get": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "AdminId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Admin"
+        ],
+        "parameters": [
+          {
+            "name": "AdminId",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -6307,126 +6341,6 @@
             "description": "OK"
           }
         }
-      },
-      "get": {
-        "tags": [
-          "User"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/userViewModels"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/userViewModels"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/userViewModels"
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/User/GetUserType": {
-      "get": {
-        "tags": [
-          "User"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "additionalProperties": { }
-                  }
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "additionalProperties": { }
-                  }
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "type": "object",
-                    "additionalProperties": { }
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    },
-    "/api/User/GetAddressType": {
-      "get": {
-        "tags": [
-          "User"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/User/User/{userID}": {
-      "get": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "userID",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK",
-            "content": {
-              "text/plain": {
-                "schema": {
-                  "$ref": "#/components/schemas/singleUserResponseModel"
-                }
-              },
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/singleUserResponseModel"
-                }
-              },
-              "text/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/singleUserResponseModel"
-                }
-              }
-            }
-          }
-        }
       }
     },
     "/api/User/User/{userId}": {
@@ -6961,6 +6875,79 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/AddressModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdminDetails": {
+        "type": "object",
+        "properties": {
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userGuid": {
+            "type": "string",
+            "nullable": true
+          },
+          "firstName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastName": {
+            "type": "string",
+            "nullable": true
+          },
+          "middleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "userName": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLine1": {
+            "type": "string",
+            "nullable": true
+          },
+          "addressLine2": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "stateId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "stateName": {
+            "type": "string",
+            "nullable": true
+          },
+          "countryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "countryName": {
+            "type": "string",
+            "nullable": true
+          },
+          "zipCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "emailID": {
+            "type": "string",
+            "nullable": true
+          },
+          "companyList": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CompanyModel"
             },
             "nullable": true
           }
@@ -7640,8 +7627,8 @@
             "nullable": true
           },
           "zipCode": {
-            "type": "integer",
-            "format": "int32"
+            "type": "string",
+            "nullable": true
           },
           "gstin": {
             "type": "string",
@@ -7707,75 +7694,6 @@
             "nullable": true
           },
           "createdBy": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
-      "Companys": {
-        "type": "object",
-        "properties": {
-          "companyID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "companyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddress2": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddress3": {
-            "type": "string",
-            "nullable": true
-          },
-          "cCity": {
-            "type": "string",
-            "nullable": true
-          },
-          "cState": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "cCountry": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "cZipCode": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "gstin": {
-            "type": "string",
-            "nullable": true
-          },
-          "cin": {
-            "type": "string",
-            "nullable": true
-          },
-          "companyGuid": {
-            "type": "string",
-            "nullable": true
-          },
-          "isDeleted": {
-            "type": "boolean"
-          },
-          "createdOn": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "createdBy": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "updatedOn": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedBy": {
             "type": "integer",
             "format": "int32"
           }
@@ -7867,24 +7785,6 @@
             "items": {
               "$ref": "#/components/schemas/CountryDropdownModel"
             },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "Credential": {
-        "type": "object",
-        "properties": {
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "confirmPassword": {
-            "type": "string",
             "nullable": true
           }
         },
@@ -9235,56 +9135,6 @@
         },
         "additionalProperties": false
       },
-      "ManageFranchise": {
-        "type": "object",
-        "properties": {
-          "userid": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "middleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "emailID": {
-            "type": "string",
-            "nullable": true
-          },
-          "addressLine1": {
-            "type": "string",
-            "nullable": true
-          },
-          "addressLine2": {
-            "type": "string",
-            "nullable": true
-          },
-          "country": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "city": {
-            "type": "string",
-            "nullable": true
-          },
-          "state": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "zipCode": {
-            "type": "integer",
-            "format": "int32"
-          }
-        },
-        "additionalProperties": false
-      },
       "MultiWagesModelView": {
         "type": "object",
         "properties": {
@@ -9305,37 +9155,6 @@
             "items": {
               "$ref": "#/components/schemas/WagesStructureModel"
             },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "MultiformModel": {
-        "type": "object",
-        "properties": {
-          "manageFranchise": {
-            "$ref": "#/components/schemas/ManageFranchise"
-          },
-          "credential": {
-            "$ref": "#/components/schemas/Credential"
-          },
-          "companys": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/Companys"
-            },
-            "nullable": true
-          },
-          "passKey": {
-            "type": "string",
-            "nullable": true
-          },
-          "saltKey": {
-            "type": "string",
-            "nullable": true
-          },
-          "saltKeyIV": {
-            "type": "string",
             "nullable": true
           }
         },
@@ -10237,52 +10056,6 @@
             "format": "int32"
           },
           "message": {
-            "type": "string",
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "SUCompany": {
-        "type": "object",
-        "properties": {
-          "companyID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "companyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddressLine1": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddressLine2": {
-            "type": "string",
-            "nullable": true
-          },
-          "cCity": {
-            "type": "string",
-            "nullable": true
-          },
-          "cState": {
-            "type": "string",
-            "nullable": true
-          },
-          "cZipCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "cCountry": {
-            "type": "string",
-            "nullable": true
-          },
-          "gstin": {
-            "type": "string",
-            "nullable": true
-          },
-          "cin": {
             "type": "string",
             "nullable": true
           }
@@ -11409,260 +11182,6 @@
         },
         "additionalProperties": false
       },
-      "UserResponse": {
-        "type": "object",
-        "properties": {
-          "status": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "ex": {
-            "type": "string",
-            "nullable": true
-          },
-          "userID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "loginUserID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "userGuid": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
-          },
-          "firstName": {
-            "type": "string",
-            "nullable": true
-          },
-          "createdOn": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "countryName": {
-            "type": "string",
-            "nullable": true
-          },
-          "stateName": {
-            "type": "string",
-            "nullable": true
-          },
-          "imageID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "image": {
-            "type": "string",
-            "nullable": true
-          },
-          "stateId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "countryID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "primaryPhoneNo": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "secondaryPhoneNo": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "primaryphonenumber": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "secondaryphonenumber": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "profileImgID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "profileImg": {
-            "type": "string",
-            "nullable": true
-          },
-          "middleName": {
-            "type": "string",
-            "nullable": true
-          },
-          "lastName": {
-            "type": "string",
-            "nullable": true
-          },
-          "userName": {
-            "type": "string",
-            "nullable": true
-          },
-          "typeName": {
-            "type": "string",
-            "nullable": true
-          },
-          "userTypeID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "isActive": {
-            "type": "boolean"
-          },
-          "isDeleted": {
-            "type": "boolean"
-          },
-          "updatedOn": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "updatedBy": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "createdBy": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "addressTypeID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "passKeyId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "passKey": {
-            "type": "string",
-            "nullable": true
-          },
-          "saltKey": {
-            "type": "string",
-            "nullable": true
-          },
-          "saltKeyIV": {
-            "type": "string",
-            "nullable": true
-          },
-          "userEmailId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "emailID": {
-            "type": "string",
-            "nullable": true
-          },
-          "isPrimary": {
-            "type": "boolean"
-          },
-          "userAddressId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "addressLine1": {
-            "type": "string",
-            "nullable": true
-          },
-          "addressLine2": {
-            "type": "string",
-            "nullable": true
-          },
-          "city": {
-            "type": "string",
-            "nullable": true
-          },
-          "state": {
-            "type": "string",
-            "nullable": true
-          },
-          "zipCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "country": {
-            "type": "string",
-            "nullable": true
-          },
-          "company": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SUCompany"
-            },
-            "nullable": true
-          },
-          "companyID": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "companyName": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddressLine1": {
-            "type": "string",
-            "nullable": true
-          },
-          "cAddressLine2": {
-            "type": "string",
-            "nullable": true
-          },
-          "cCity": {
-            "type": "string",
-            "nullable": true
-          },
-          "cState": {
-            "type": "string",
-            "nullable": true
-          },
-          "cZipCode": {
-            "type": "string",
-            "nullable": true
-          },
-          "cCountry": {
-            "type": "string",
-            "nullable": true
-          },
-          "gstin": {
-            "type": "string",
-            "nullable": true
-          },
-          "cin": {
-            "type": "string",
-            "nullable": true
-          },
-          "bgImage": {
-            "type": "string",
-            "nullable": true
-          },
-          "profileImage": {
-            "type": "string",
-            "nullable": true
-          },
-          "phonenumber": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "emailAddress": {
-            "type": "string",
-            "nullable": true
-          },
-          "dob": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
       "WagesModel": {
         "type": "object",
         "properties": {
@@ -12116,63 +11635,6 @@
           },
           "singleProjectWeeklyReport": {
             "$ref": "#/components/schemas/ProjectWeeklyReportModel"
-          }
-        },
-        "additionalProperties": false
-      },
-      "singleUserResponseModel": {
-        "type": "object",
-        "properties": {
-          "status": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "ex": {
-            "type": "string",
-            "nullable": true
-          },
-          "sudModel": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/UserResponse"
-            },
-            "nullable": true
-          },
-          "suDcompany": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/SUCompany"
-            },
-            "nullable": true
-          }
-        },
-        "additionalProperties": false
-      },
-      "userViewModels": {
-        "type": "object",
-        "properties": {
-          "status": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "message": {
-            "type": "string",
-            "nullable": true
-          },
-          "ex": {
-            "type": "string",
-            "nullable": true
-          },
-          "userViewModel": {
-            "type": "array",
-            "items": {
-              "$ref": "#/components/schemas/UserResponse"
-            },
-            "nullable": true
           }
         },
         "additionalProperties": false

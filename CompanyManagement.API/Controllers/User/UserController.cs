@@ -35,7 +35,7 @@ namespace CompanyManagement.Controllers
         [Authorize]
         public IActionResult SaveUpdate(UserBasic model)
         {
-
+			
             var id = User.FindFirst("userID").Value;
             var actionBy = Int32.Parse(id);
             var result = _userService.SaveUpdate(model, actionBy);
@@ -43,70 +43,70 @@ namespace CompanyManagement.Controllers
         }
 
         //--------------------------------------------Get User Type------------------------------------------------
-        [HttpGet("GetUserType")]
+  //      [HttpGet("GetUserType")]
 	
-		public List<IDictionary<string, object>> GetUserType()                                   
-	    {
-			try
-			{
-				return _userService.GetUserType();
-			}
+		//public List<IDictionary<string, object>> GetUserType()                                   
+	 //   {
+		//	try
+		//	{
+		//		return _userService.GetUserType();
+		//	}
 
-			catch (Exception ex)
-			{
-				throw ex;
-			}
-		}
+		//	catch (Exception ex)
+		//	{
+		//		throw ex;
+		//	}
+		//}
 
-		//--------------------------------------------Get Address Type--------------------------------------------
+		////--------------------------------------------Get Address Type--------------------------------------------
 
-		[HttpGet("GetAddressType")]
+		//[HttpGet("GetAddressType")]
 		
-		public IActionResult GetAddress()
-		{
-			try
-			{
-				return Ok(_userService.GetAddressType());
-			}
-			catch(Exception ex)
-			{
-				throw ex;
-			}
-		}
+		//public IActionResult GetAddress()
+		//{
+		//	try
+		//	{
+		//		return Ok(_userService.GetAddressType());
+		//	}
+		//	catch(Exception ex)
+		//	{
+		//		throw ex;
+		//	}
+		//}
 
-		//--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
+		////--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
 
-		[HttpGet]
+		//[HttpGet]
 		
-		public userViewModels Get()
-		{
-			try
-			{
-				return _userService.Get();
-			}
-			catch(Exception ex)
-			{
-				throw ex;
-			}
-		}
+		//public userViewModels Get()
+		//{
+		//	try
+		//	{
+		//		return _userService.Get();
+		//	}
+		//	catch(Exception ex)
+		//	{
+		//		throw ex;
+		//	}
+		//}
 
 
-		//----------------------------------------- Get Single User by UserID-------------------------------------------------------
+		////----------------------------------------- Get Single User by UserID-------------------------------------------------------
 
 
-		[HttpGet("User/{userID}")]
+		//[HttpGet("User/{userID}")]
 
-		public singleUserResponseModel GetSingle(int userID)
-		     {
-			try
-			{
-				return _userService.GetSingle(userID);
-			}
-			catch(Exception ex)
-			{
-				throw ex;
-			}
-		}
+		//public singleUserResponseModel GetSingle(int userID)
+		//     {
+		//	try
+		//	{
+		//		return _userService.GetSingle(userID);
+		//	}
+		//	catch(Exception ex)
+		//	{
+		//		throw ex;
+		//	}
+		//}
 
 
 		//--------------------------------------- Delete User Details-------------------------------------------------------

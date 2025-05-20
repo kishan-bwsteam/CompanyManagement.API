@@ -481,11 +481,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
       "projectName": "CompanyManagement.Domain",
-      "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
+      "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
       "packagesPath": "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\obj\\",
+      "outputPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

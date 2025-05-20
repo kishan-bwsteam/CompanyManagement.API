@@ -1,4 +1,5 @@
-﻿using Authentication.DataManager.Helper;
+﻿
+using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Responses;
@@ -11,7 +12,7 @@ namespace Service.Concrete
 {
  public    class OfficialCommunicationService : IOfficialCommunicationService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly IOfficialCommunicationRepository _iofficialCommunicationRepository;
 

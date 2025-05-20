@@ -1,5 +1,6 @@
-﻿                                                                                                                                                          using Authentication.DataManager.Helper;
-using CompanyManagement.Data.Datas.Abstract;
+﻿using CompanyManagement.Data.Datas.Abstract;
+using CompanyManagement.Domain.Model;
+using CompanyManagement.Service.Helper;
 using CompanyManagement.Services.Service.Abstract;
 
 using Dto.Request;
@@ -12,7 +13,7 @@ namespace CompanyManagement.Services.Service.Concrete
 {
    public class LoginService : ILoginService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
         private readonly ILoginRepository _loginRepository;
         public LoginService(ILoginRepository loginRepositery)
         {

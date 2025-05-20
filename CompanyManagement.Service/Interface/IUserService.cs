@@ -16,14 +16,6 @@ namespace CompanyManagement.Services.Service.Abstract
 		Response SaveUpdate(UserBasic model, int actionBy);
 
 
-        //--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
-
-        userViewModels Get();
-
-
-		//----------------------------------------- Get Single User by UserID-------------------------------------------------------
-		singleUserResponseModel GetSingle(int UserID);
-
 		//--------------------------------------- Delete User Details-------------------------------------------------------
 		Response Delete(int userId);
 
@@ -34,17 +26,6 @@ namespace CompanyManagement.Services.Service.Abstract
 
 		Response Upload(int profileid, string path, string msg);
 
-		//--------------------------------------------Get User Type------------------------------------------------
-		List<IDictionary<string, object>> GetUserType();
-
-
-		//--------------------------------------------Get Address Type--------------------------------------------
-		IEnumerable<AddressType> GetAddressType();
-
-
-	
-
-		//------------------------------------------ Delete Company by Company ID------------------------------------------------
 
 		Response DeleteCompany(int companyID);
 

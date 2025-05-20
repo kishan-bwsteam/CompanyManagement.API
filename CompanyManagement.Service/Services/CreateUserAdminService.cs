@@ -1,7 +1,7 @@
-﻿using Authentication.DataManager.Helper;
-using AutoMapper;
+﻿using AutoMapper;
 using CompanyManagement.Data.Datas.Abstract;
 using CompanyManagement.Domain.Model;
+using CompanyManagement.Service.Helper;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -18,7 +18,7 @@ namespace Service.Concrete
 {
     public class CreateUserAdminService : ICreateUserAdminService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
         private readonly ICreateUserAdminRepository _icreateUserAdminRepository;
         private readonly IUserRepository _userRepository;
         private readonly IEmpAddressRepository _addrRepository;

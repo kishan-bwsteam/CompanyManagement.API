@@ -1,5 +1,4 @@
-﻿using Authentication.DataManager.Helper;
-using Datas.Abstract;
+﻿using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model.Common;
 using Service.Abstract;

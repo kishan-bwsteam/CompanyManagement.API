@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model.Common;
@@ -12,7 +12,7 @@ namespace Service.Concrete
 {
     public class SummaryService : ISummaryService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly ISummaryRepository _iSummaryRepository;
 

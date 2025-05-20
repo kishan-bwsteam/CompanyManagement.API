@@ -1,35 +1,13 @@
-﻿//using System;
-//using System.Collections.Generic;
-//using System.Text;
-
-//namespace Service.Helpers
-//{
-//	class EncryptHelper
-//	{
-//	}
-//}
-
+﻿using CompanyManagement.Domain.Model;
 using System;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
 
-namespace Authentication.DataManager.Helper
+namespace CompanyManagement.Service.Helper
 {
 
-	public class EncryptHelperObj
-	{
-		public string SaltKey { get; set; }
 
-		public string SaltKeyIV { get; set; }
-
-		public string Value { get; set; }
-
-		public byte[] EncryptString { get; set; }
-
-		//public string EncryptString { get; set; }
-
-	}
 	public class EncryptHelper
 	{
 
@@ -114,7 +92,7 @@ namespace Authentication.DataManager.Helper
 			}
 			return plaintext;
 		}
-        internal static object Get_DecryptedPassword(EncryptHelperObj obj, object passKey)
+        internal static object Get_DecryptedPassword(EncryptHelperModel obj, object passKey)
         {
             throw new NotImplementedException();
         }
@@ -134,7 +112,7 @@ namespace Authentication.DataManager.Helper
 			return valueIsUnknown;
 		}
 
-		public static string Get_DecryptedPassword(EncryptHelperObj _EncryptHelperObj, string EncryptString)
+		public static string Get_DecryptedPassword(EncryptHelperModel _EncryptHelperObj, string EncryptString)
 		{
 			string Password = string.Empty;
 			try
@@ -153,9 +131,9 @@ namespace Authentication.DataManager.Helper
 			return Password;
 		}
 
-		public static EncryptHelperObj Get_EncryptedPassword(EncryptHelperObj obj, string Password)
+		public static EncryptHelperModel Get_EncryptedPassword(EncryptHelperModel obj, string Password)
 		{
-			EncryptHelperObj _EncryptHelperObj = new EncryptHelperObj();
+            EncryptHelperModel _EncryptHelperObj = new EncryptHelperModel();
 			if (CheckStringISNormal(Password))
 			{
 				try

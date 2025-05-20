@@ -1,4 +1,5 @@
 ﻿
+using CompanyManagement.Domain.Model;
 using Dto.Model;
 using Dto.Model.Common;
 using System.Collections.Generic;
@@ -18,7 +19,7 @@ namespace Service.Abstract
         //---------------------------- Save Update Company -----------------------------
         CompanyModel GetSingle(int companyId);
 
-        IEnumerable<CompanyModel> Get(int UserId, int limit = 10, int startingRow = 0);
+        PaginatedResult<CompanyModel> Get(int UserId, int limit = 10, int startingRow = 0);
 
         Response SaveUpdate(CompanyModel model);
 

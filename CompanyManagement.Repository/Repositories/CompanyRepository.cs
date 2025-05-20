@@ -7,6 +7,7 @@ using SqlDapper.Abstract;
 using SqlDapper.Concrete;
 using System.Data;
 using Microsoft.Data.SqlClient;
+using CompanyManagement.Domain.Model;
 
 
 namespace Datas.Concrete
@@ -69,8 +70,9 @@ namespace Datas.Concrete
             return report;
         }
 
-        public IEnumerable<CompanyModel> Get(DataTable filters, int limit, int startingRow)
+        public PaginatedResult<CompanyModel> Get(DataTable filters, int limit, int startingRow)
         {
+            PaginatedResult<CompanyModel> result = new PaginatedResult<CompanyModel>();
             try
             {
                 var parameters = new DynamicParameters();
@@ -88,9 +90,12 @@ namespace Datas.Concrete
                 parameters.Add("@filters", filters.AsTableValuedParameter("filter_type"));
                 parameters.Add("@limit", limit);
                 parameters.Add("@startingRow", startingRow);
+                parameters.Add("@totalRecords", dbType: DbType.Int32, direction: ParameterDirection.Output);
 
-                var result = dbcontext.Query<CompanyModel>("GetCompany", parameters, commandType: CommandType.StoredProcedure);
-
+                result.Data = dbcontext.Query<CompanyModel>("GetCompany", parameters, commandType: CommandType.StoredProcedure);
+                result.TotalRecords = parameters.Get<int>("@totalRecords");
+                result.limit = limit;
+                result.startingRow = startingRow;
                 return result;
             }
             catch (SqlException ex)

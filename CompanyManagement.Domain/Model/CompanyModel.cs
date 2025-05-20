@@ -13,35 +13,20 @@ namespace Dto.Model
         public int CompanyId { get; set; }
         public int LoginUserID { get; set; }
         public int UserID { get; set; }
-        public string CompanyGuid { get; set; }
+        public string? CompanyGuid { get; set; }
         public int? FranchiseID { get; set; }
         public string CompanyName { get; set; }
         public string AddressLine1 { get; set; }
         public string AddressLine2 { get; set; }
-        //public string Address2 { get; set; }
-        //public string Address3 { get; set; }
-        //public int State1 { get; set; }
-        //public int Country1 { get; set; }
 
         public string City { get; set; }
         public int StateId { get; set; }
         public string? State { get; set; }
         public int CountryId { get; set; }
         public string? Country { get; set; }
-        public int ZipCode { get; set; }
-        //public DateTime? CreatedOn { get; set; }
-        //public DateTime? UpdatedOn { get; set; }
-        //public int CreatedBy { get; set; }
-        //public int UpdatedBy { get; set; }
+        public string ZipCode { get; set; }
         public string GSTIN { get; set; }
         public string CIN { get; set; }
-        //public string SaltKey { get; set; }
-        //public string SaltKeyIV { get; set; }
-        //public string PassKey { get; set; }
-        //public string Password { get; set; }
-        //public bool IsDeleted { get; set; }
-        //public int Status { get; set; }
-        //public string Message { get; set; }
     }
 
     //-------------------------------------------Company Model List--------------------------------
