@@ -1,4 +1,5 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
+using CompanyManagement.Service.Helper;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -13,7 +14,7 @@ namespace Service.Concrete
 {
     public class EmpPersonalDetailService : IEmpPersonalDetailService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
         private readonly IEmpPersonalDetailRepository _iempPersonalDetailRepository;
 
         public EmpPersonalDetailService(IEmpPersonalDetailRepository _empPersonalDetailRepository) 
@@ -63,7 +64,7 @@ namespace Service.Concrete
 
         {
             SinglePersonalDetailResponseModel response = new SinglePersonalDetailResponseModel();
-            EncryptHelperObj _Obj = new EncryptHelperObj();
+            EncryptHelperModel _Obj = new EncryptHelperModel();
             try
             {
                 response = _iempPersonalDetailRepository.GetSingle(userID);

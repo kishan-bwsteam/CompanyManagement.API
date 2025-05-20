@@ -18,29 +18,14 @@ namespace CompanyManagement.Data.Datas.Abstract
 
 		Response Upload(int profileid, string path, string msg);
 
-		//--------------------------------------------Get User Type------------------------------------------------
-		List<IDictionary<string, object>> GetUserType();
-
-
-		//--------------------------------------------Get Address Type--------------------------------------------
-		IEnumerable<AddressType> GetAddressType();
-
 
 		//--------------------------------------------------------- Save Update user-------------------------------------
 		Response SaveOrUpdate(UserBasic model, int actionBy);
 
 
-
-        //--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
-
-        userViewModels Get();
-
 		//--------------------------------------- Delete User Details-------------------------------------------------------
 		Response Delete(int userId);
 
-
-		//----------------------------------------- Get Single User by UserID-------------------------------------------------------
-		singleUserResponseModel GetSingle(int UserID);
 
 		//------------------------------------------ Delete Company by Company ID------------------------------------------------
 

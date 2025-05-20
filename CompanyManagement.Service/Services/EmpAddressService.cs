@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -14,7 +14,7 @@ namespace Service.Concrete
 {
     public class EmpAddressService : IEmpAddressService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
         private readonly IEmpAddressRepository _iempAddressRepository;
 
         public EmpAddressService(IEmpAddressRepository empAddressRepository)

@@ -1,5 +1,5 @@
-﻿using Authentication.DataManager.Helper;
-using BussinessObject;
+﻿using BussinessObject;
+using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Responses;
@@ -12,8 +12,8 @@ namespace Service.Concrete
 {
     public class RoleService : IRoleService
     {
+        EncryptHelperModel obj = new EncryptHelperModel();
 
-        EncryptHelperObj obj = new EncryptHelperObj();
 
         private readonly IRoleDataRepository _iroleDataRepository;
 

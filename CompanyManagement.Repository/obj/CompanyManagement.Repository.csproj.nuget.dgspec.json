@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj": {}
+    "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj": {
+    "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj",
+        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj",
         "projectName": "CompanyManagement.Dapper",
-        "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj",
+        "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj",
         "packagesPath": "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\obj\\",
+        "outputPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -83,14 +83,14 @@
         }
       }
     },
-    "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj": {
+    "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
         "projectName": "CompanyManagement.Domain",
-        "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -158,14 +158,14 @@
         }
       }
     },
-    "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj": {
+    "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
         "projectName": "CompanyManagement.Repository",
-        "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+        "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
         "packagesPath": "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\obj\\",
+        "outputPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -186,11 +186,11 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj": {
-                "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj"
+              "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj": {
+                "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Dapper\\CompanyManagement.Dapper.csproj"
               },
-              "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj"
+              "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj"
               }
             }
           }

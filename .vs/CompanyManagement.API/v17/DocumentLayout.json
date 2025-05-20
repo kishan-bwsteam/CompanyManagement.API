@@ -1,46 +1,241 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\",
+  "WorkspaceRootPath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.service\\services\\createuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\createuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\createuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.domain\\shared\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.domain\\shared\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\shared\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\source\\repos\\companymanagement.api\\companymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\model\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\wagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\wagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\company\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\company\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\employeeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\emppersonaldetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\emppersonaldetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\salaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\empaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\empaddressservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\resetpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\resetpasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\emergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\emergencyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\empemploymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\empemploymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\summaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\summaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\leaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\emailmassagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\emailmassagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\companyshiftsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\companyshiftsettingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\calleaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\calleaveservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\employeedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\employeedetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\empeducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\empeducationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\notesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\positionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\commonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\officialcommunicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\officialcommunicationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\empbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\empbankservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\documentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\documentsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\letterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\letterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\attendanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.domain\\model\\encrypthelpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\model\\encrypthelpermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\companymanagement.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\companymanagement.repository.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\companymanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\companymanagement.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.domain\\model\\multiformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB35148B-DBA9-4779-9E2B-D8EBEEEAA4F1}|CompanyManagement.Domain\\CompanyManagement.Domain.csproj|solutionrelative:companymanagement.domain\\model\\multiformmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\companyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\interface\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\interface\\icompanyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\interface\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\interface\\icompanyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\login\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\login\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BWS-11-Windows\\AppData\\Local\\SourceServer\\14b4ed5387f23e2a3bdd943cd26e3a37f107b11863f3fdf752deec012442bf8d\\CompanyManagement.Service\\Services\\AdminService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\leave\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\leave\\leavecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\companymanagement.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\companymanagement.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE30264B-7663-4C30-9A56-51251ED74CE4}|CompanyManagement.API\\CompanyManagement.API.csproj|solutionrelative:companymanagement.api\\controllers\\createadminuser\\createuseradmincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\repositories\\createuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64100558-BE66-4C40-BBC7-FC58604C2D13}|CompanyManagement.Repository\\CompanyManagement.Repository.csproj|solutionrelative:companymanagement.repository\\interface\\icreateuseradminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|c:\\users\\bws-11-windows\\desktop\\hrms\\companymanagement.api\\companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29683874-7B08-4CBC-BE51-BFFE49BD0750}|CompanyManagement.Service\\CompanyManagement.Service.csproj|solutionrelative:companymanagement.service\\interface\\icreateuseradminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,65 +245,677 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
               "RelativeDocumentMoniker": "CompanyManagement.Domain\\Shared\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Shared\\MappingProfile.cs",
               "RelativeToolTip": "CompanyManagement.Domain\\Shared\\MappingProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T07:03:21.331Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "CompanyManagement.API\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
-              "RelativeToolTip": "CompanyManagement.API\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-14T12:00:01.956Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\User\\UserController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\User\\UserController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\User\\UserController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAgwGwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T06:29:35.395Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAFIBAAAAAAAAAAAqwHkBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAowBIAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T07:36:12.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\UserService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\UserService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:54:52.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WagesService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\WagesService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\WagesService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\WagesService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\WagesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:37:14.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmpAddressService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpAddressService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmpAddressService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpAddressService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmpAddressService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:39:22.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmployeeService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmployeeService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmployeeService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmployeeService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmployeeService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwC4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:24.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateUserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAhwCgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T04:45:33.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\AdminRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\AdminRepository.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwG4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:28:59.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\AdminService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\AdminService.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwF4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:54:10.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:52:38.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\Company\\CompanyController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\Company\\CompanyController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\Company\\CompanyController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\Company\\CompanyController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:01:38.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Model\\UserModel.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
+              "RelativeToolTip": "CompanyManagement.Domain\\Model\\UserModel.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA0wDIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:06:56.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SalaryService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\SalaryService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\SalaryService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\SalaryService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\SalaryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:51.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:34:19.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Interface\\IUserService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\IUserService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:37:03.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "EmpEmploymentService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpEmploymentService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmpEmploymentService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpEmploymentService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmpEmploymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:29.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ResetPasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\ResetPasswordService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\ResetPasswordService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\ResetPasswordService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\ResetPasswordService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:40.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SummaryService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\SummaryService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\SummaryService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\SummaryService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\SummaryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:54.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmpPersonalDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpPersonalDetailService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmpPersonalDetailService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpPersonalDetailService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmpPersonalDetailService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwCIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:39:46.902Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmergencyService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmergencyService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmergencyService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmergencyService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmergencyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:40:57.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LeaveService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LeaveService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\LeaveService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LeaveService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\LeaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:38:15.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EmailMassagesService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmailMassagesService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmailMassagesService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmailMassagesService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmailMassagesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:22.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:40:53.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CompanyShiftSettingService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CompanyShiftSettingService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CompanyShiftSettingService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CompanyShiftSettingService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CompanyShiftSettingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:40:21.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CommonService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CommonService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CommonService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CommonService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CommonService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:37:38.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EmpEducationService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpEducationService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmpEducationService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpEducationService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmpEducationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:37:34.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\RoleService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\RoleService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\RoleService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\RoleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:36:41.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "NotesService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\NotesService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\NotesService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\NotesService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\NotesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:37:22.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CalLeaveService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CalLeaveService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CalLeaveService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CalLeaveService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CalLeaveService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:04.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "EmployeeDetailService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmployeeDetailService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmployeeDetailService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmployeeDetailService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmployeeDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:36:57.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PositionService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\PositionService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\PositionService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\PositionService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\PositionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:36:12.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OfficialCommunicationService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\OfficialCommunicationService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\OfficialCommunicationService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\OfficialCommunicationService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\OfficialCommunicationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:36:17.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LetterService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LetterService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\LetterService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LetterService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\LetterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:50.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EmpBankService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpBankService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\EmpBankService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\EmpBankService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\EmpBankService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAuwBQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:26.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DocumentsService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\DocumentsService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\DocumentsService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\DocumentsService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\DocumentsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:35:17.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "AttendanceService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\AttendanceService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\AttendanceService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\AttendanceService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\AttendanceService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:34:58.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "EncryptHelperModel.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\EncryptHelperModel.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Model\\EncryptHelperModel.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\EncryptHelperModel.cs",
+              "RelativeToolTip": "CompanyManagement.Domain\\Model\\EncryptHelperModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:25:19.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\LoginService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T10:18:53.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CompanyManagement.Repository.csproj",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+              "RelativeToolTip": "CompanyManagement.Repository\\CompanyManagement.Repository.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-19T10:16:41.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CompanyManagement.Service.csproj",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\CompanyManagement.Service.csproj",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\CompanyManagement.Service.csproj",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\CompanyManagement.Service.csproj",
+              "RelativeToolTip": "CompanyManagement.Service\\CompanyManagement.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-19T10:12:20.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CompanyService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CompanyService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Services\\CompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:47:47.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CompanyManagement.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T12:00:01.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\CompanyRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CompanyRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\CompanyRepository.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwG4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:16:35.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MultiformModel.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\MultiformModel.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Model\\MultiformModel.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\MultiformModel.cs",
+              "RelativeToolTip": "CompanyManagement.Domain\\Model\\MultiformModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T06:38:00.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\Login\\LoginController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\Login\\LoginController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\Login\\LoginController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\Login\\LoginController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwCMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T06:00:25.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\appsettings.json",
+              "RelativeToolTip": "CompanyManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T05:52:14.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Service\\Interface\\ICompanyService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICompanyService.cs",
+              "RelativeToolTip": "CompanyManagement.Service\\Interface\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:49:08.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Interface\\ICompanyRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICompanyRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Interface\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T05:47:29.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\appsettings.Development.json",
+              "RelativeToolTip": "CompanyManagement.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T05:52:17.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
               "RelativeDocumentMoniker": "CompanyManagement.API\\Program.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Program.cs",
               "RelativeToolTip": "CompanyManagement.API\\Program.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAYwKgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T06:58:30.158Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 50,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\AppData\\Local\\SourceServer\\14b4ed5387f23e2a3bdd943cd26e3a37f107b11863f3fdf752deec012442bf8d\\CompanyManagement.Service\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\SourceServer\\14b4ed5387f23e2a3bdd943cd26e3a37f107b11863f3fdf752deec012442bf8d\\CompanyManagement.Service\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\AppData\\Local\\SourceServer\\14b4ed5387f23e2a3bdd943cd26e3a37f107b11863f3fdf752deec012442bf8d\\CompanyManagement.Service\\Services\\AdminService.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\SourceServer\\14b4ed5387f23e2a3bdd943cd26e3a37f107b11863f3fdf752deec012442bf8d\\CompanyManagement.Service\\Services\\AdminService.cs [Read Only]",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAYwG0AAAAIAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T05:04:45.562Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "LeaveController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\leave\\LeaveController.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\leave\\LeaveController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\leave\\LeaveController.cs",
+              "RelativeToolTip": "CompanyManagement.API\\Controllers\\leave\\LeaveController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:42:24.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T04:42:24.36Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CompanyManagement.API",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\CompanyManagement.API.csproj",
+              "RelativeDocumentMoniker": "CompanyManagement.API\\CompanyManagement.API.csproj",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\CompanyManagement.API.csproj",
+              "RelativeToolTip": "CompanyManagement.API\\CompanyManagement.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T13:20:17.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
               "Title": "ICreateUserAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
               "RelativeDocumentMoniker": "CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
               "RelativeToolTip": "CompanyManagement.Repository\\Interface\\ICreateUserAdminRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,11 +923,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 58,
               "Title": "ICreateUserAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
               "RelativeDocumentMoniker": "CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
               "RelativeToolTip": "CompanyManagement.Service\\Interface\\ICreateUserAdminService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,53 +935,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 55,
               "Title": "CreateUserAdminController.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
               "RelativeDocumentMoniker": "CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
               "RelativeToolTip": "CompanyManagement.API\\Controllers\\CreateAdminUser\\CreateUserAdminController.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAowD0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:06:21.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T06:06:21.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
-              "RelativeDocumentMoniker": "CompanyManagement.Domain\\Model\\UserModel.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\Model\\UserModel.cs",
-              "RelativeToolTip": "CompanyManagement.Domain\\Model\\UserModel.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:05:06.423Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 56,
               "Title": "CreateUserAdminRepository.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
               "RelativeDocumentMoniker": "CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
+              "ToolTip": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
               "RelativeToolTip": "CompanyManagement.Repository\\Repositories\\CreateUserAdminRepository.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwCIAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T04:45:44.983Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateUserAdminService.cs",
-              "DocumentMoniker": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
-              "RelativeDocumentMoniker": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
-              "ToolTip": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
-              "RelativeToolTip": "CompanyManagement.Service\\Services\\CreateUserAdminService.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAApwEsAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T04:45:33.381Z",
-              "EditorCaption": ""
             }
           ]
         }

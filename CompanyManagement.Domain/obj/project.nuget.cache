@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3pFnE9bJR20=",
+  "dgSpecHash": "9sH8KCZs3jY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\BWS-11-Windows\\source\\repos\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\BWS-11-Windows\\Desktop\\HRMS\\CompanyManagement.API\\CompanyManagement.Domain\\CompanyManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\BWS-11-Windows\\.nuget\\packages\\microsoft.aspnetcore.http\\2.3.0\\microsoft.aspnetcore.http.2.3.0.nupkg.sha512",

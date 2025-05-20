@@ -1,38 +1,39 @@
-﻿using Authentication.DataManager.Helper;
+﻿
 using CompanyManagement.Data.Datas.Abstract;
 using CompanyManagement.Data.Datas.Concrete;
 using CompanyManagement.Domain.Model;
 using CompanyManagement.Repository.Interface;
+using CompanyManagement.Service.Helper;
 using CompanyManagement.Service.Interface;
-using CompanyManagement.Services.Service.Abstract;
+using Datas.Abstract;
 using Dto.Model;
 using Dto.Model.Common;
-using SqlDapper.Abstract;
 using System;
-using System.Collections.Generic;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CompanyManagement.Service.Services
 {
-    public class AdminService:IAdminService
+    public class AdminService : IAdminService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly IAdminRepository _adminRepository;
-        private readonly IUserService _userService;
-        public AdminService(IAdminRepository adminRepository, IUserService userService)
+        private readonly IUserRepository _userRepository;
+        private readonly ICompanyRepository _companyRepo;
+        public AdminService(IAdminRepository adminRepository,
+            ICompanyRepository companyRepository,
+            IUserRepository userRepository)
         {
             _adminRepository = adminRepository;
-            _userService = userService;
+            _userRepository = userRepository;
+            _companyRepo = companyRepository;
         }
 
 
         //--------------------------------------------------------- Save Update user-------------------------------------
 
-        public Response SaveUpdate(MultiformModel model)
+        public Response SaveUpdate(AdminDetails model, int ActionBy)
         {
             try
             {
@@ -40,11 +41,6 @@ namespace CompanyManagement.Service.Services
                 dt.Columns.Add("CompanyID", typeof(int));
                 dt.Columns.Add("CompanyGuid", typeof(string));
                 dt.Columns.Add("CompanyName", typeof(string));
-                dt.Columns.Add("IsDeleted", typeof(bool));
-                dt.Columns.Add("CreatedOn", typeof(DateTime));
-                dt.Columns.Add("CreatedBy", typeof(int));
-                dt.Columns.Add("UpdatedOn", typeof(DateTime));
-                dt.Columns.Add("UpdatedBy", typeof(int));
                 dt.Columns.Add("GSTIN", typeof(string));
                 dt.Columns.Add("CIN", typeof(string));
                 dt.Columns.Add("AddressLine1", typeof(string));
@@ -55,48 +51,33 @@ namespace CompanyManagement.Service.Services
                 dt.Columns.Add("CountryID", typeof(int));
 
 
-                if (model.Companys.Count > 0)
+                if (model.CompanyList.Count() > 0)
                 {
 
-                    foreach (var item in model.Companys)
+                    foreach (var item in model.CompanyList)
                     {
                         DataRow dr = dt.NewRow();
-                        dr["CompanyID"] = item.CompanyID;
+                        dr["CompanyID"] = item.CompanyId;
                         dr["CompanyGuid"] = item.CompanyGuid ?? (object)DBNull.Value;
                         dr["CompanyName"] = item.CompanyName;
                         //dr["FranchiseID"] = item.FranchiseID ?? (object)DBNull.Value;
-                        dr["IsDeleted"] = item.IsDeleted;
-                        dr["CreatedOn"] = DateTime.Now;
-                        dr["CreatedBy"] = item.CreatedBy;
-                        dr["UpdatedOn"] = DateTime.Now;
-                        dr["UpdatedBy"] = item.CreatedBy;
                         dr["GSTIN"] = item.GSTIN;
                         dr["CIN"] = item.CIN;
-                        dr["AddressLine1"] = item.CAddress2;
-                        dr["AddressLine2"] = item.CAddress3;
-                        dr["City"] = item.CCity;
-                        dr["StateId"] = item.CState;
-                        dr["ZipCode"] = item.CZipCode;
-                        dr["CountryID"] = item.CCountry;
+                        dr["AddressLine1"] = item.AddressLine1;
+                        dr["AddressLine2"] = item.AddressLine2;
+                        dr["City"] = item.City;
+                        dr["StateId"] = item.StateId;
+                        dr["ZipCode"] = item.ZipCode;
+                        dr["CountryID"] = item.CountryId;
                         dt.Rows.Add(dr);
                         dt.AcceptChanges();
                     }
                 }
-                // Giving statically for temporary
-                model.Credential = new Credential()
-                {
-                    UserName = "",
-                    password = "123456",
-                    confirmPassword = "123456",
-                };
-                //return _userRepository.saveUpTransaction(dt);
-                obj = EncryptHelper.Get_EncryptedPassword(obj, model.Credential.password);
-                model.PassKey = obj.Value;
-                model.SaltKey = obj.SaltKey;
-                model.SaltKeyIV = obj.SaltKeyIV;
+                obj = EncryptHelper.Get_EncryptedPassword(obj, "123456");
 
 
-                return _adminRepository.SaveUpdate(model, dt);
+
+                return _adminRepository.SaveUpdate(model, dt, ActionBy,obj);
             }
             catch (Exception ex)
             {
@@ -105,9 +86,41 @@ namespace CompanyManagement.Service.Services
 
         }
 
-        public PaginatedResult<UserBasic> GetAdminList( int limit = 10, int startingRow = 0)
+        public PaginatedResult<AdminDetails> GetAdminList(int limit = 10, int startingRow = 0, string? search = null)
         {
-            var res = _userService.GetByUserTypeId(2,limit,startingRow);
+            DataTable filters = new DataTable("filter_type");
+            filters.Columns.Add("operator", typeof(string));
+            filters.Columns.Add("col", typeof(string));
+            filters.Columns.Add("condition", typeof(string));
+            filters.Columns.Add("val", typeof(string));
+            if (search != null)
+            {
+                filters.Rows.Add("AND", "FirstName", "Like", $"%{search}%");
+                filters.Rows.Add("OR", "LastName", "Like", $"%{search}%");
+                filters.Rows.Add("OR", "MiddleName", "Like", $"%{search}%");
+                filters.Rows.Add("OR", "UserName", "Like", $"%{search}%");
+            }
+            var res = _adminRepository.Get(filters, limit, startingRow);
+            return res;
+        }
+        public AdminDetails GetAdmin(int AdminId)
+        {
+            DataTable filters = new DataTable("filter_type");
+            filters.Columns.Add("operator", typeof(string));
+            filters.Columns.Add("col", typeof(string));
+            filters.Columns.Add("condition", typeof(string));
+            filters.Columns.Add("val", typeof(string));
+
+            filters.Rows.Add("AND", "UserId", "=", AdminId);
+            var response = new AdminDetails();
+            response = _adminRepository.Get(filters, 1, 0).Data.FirstOrDefault();
+            response.CompanyList = _companyRepo.Get(filters, 100, 0).Data;
+            return response;
+        }
+
+        public Response DeleteAdmin(int AdminId)
+        {
+            var res = _userRepository.Delete(AdminId);
             return res;
         }
     }

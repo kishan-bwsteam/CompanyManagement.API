@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -13,7 +13,7 @@ namespace Service.Concrete
 {
    public  class SalaryService: ISalaryService 
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly ISalaryRepository _salaryRepository;
 

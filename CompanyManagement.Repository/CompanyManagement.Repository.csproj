@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CompanyManagement.Dapper\CompanyManagement.Dapper.csproj" />
-    <ProjectReference Include="..\CompanyManagement.Domain\CompanyManagement.Domain.csproj" />
+	  <ProjectReference Include="..\CompanyManagement.Domain\CompanyManagement.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -69,116 +69,6 @@ namespace CompanyManagement.Data.Datas.Concrete
             }
         }
 
-        //--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
-
-        public userViewModels Get()
-        {
-            userViewModels report = new userViewModels();
-            try
-            {
-                DynamicParameters parameters = CommonRepository.GetLogParameters();
-                parameters.Add("@Status", 0, DbType.Int32, ParameterDirection.Output);
-                parameters.Add("@Message", "", DbType.String, ParameterDirection.Output);
-                var _report = _idb_context.Query<UserResponse>("GetUserData", parameters, commandType: CommandType.StoredProcedure).ToList();
-
-                if (_report != null)
-                {
-                    report.Status = parameters.Get<int>("@Status");
-                    report.Message = parameters.Get<string>("@Message");
-                    if (report.Status == 200)
-                    {
-                        report.userViewModel = _report;
-
-                        if (report.userViewModel.Count == 0)
-                        {
-                            report.Status = (int)ErrorStatus.Error;
-                            report.Message = "User not found";
-                        }
-                    }
-                }
-                else
-                {
-                    report.userViewModel = null;
-                }
-            }
-            catch (SqlException ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            catch (DataException ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            catch (Exception ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            return report;
-        }
-
-
-
-        //----------------------------------------- Get Single User by UserID-------------------------------------------------------
-
-        public singleUserResponseModel GetSingle(int userID)
-        {
-            singleUserResponseModel report = new singleUserResponseModel();
-
-            try
-            {
-                DynamicParameters parameters = CommonRepository.GetLogParameters();
-                //  DynamicParameters parameters = new DynamicParameters();
-
-                parameters.Add("@UserID", userID);
-
-                var _report = _idb_context.Query<UserResponse>("GetSingleUser", parameters, null, CommandType.StoredProcedure).ToList();
-                if (_report != null)
-                {
-                    report.Status = parameters.Get<int>("@Status");
-                    report.Message = parameters.Get<string>("@Message");
-                    if (report.Status == 1)
-                    {
-                        report.SUDModel = _report;
-                        if (report.SUDModel == null)
-                        {
-                            report.Status = (int)ErrorStatus.Error;
-                            report.Message = "User Details not found";
-                        }
-                    }
-                    else
-                    {
-                        report.SUDModel = null;
-                    }
-                }
-
-            }
-            catch (SqlException ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            catch (DataException ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            catch (Exception ex)
-            {
-                report.Status = (int)ErrorStatus.Exception;
-                report.Message = ex.Message;
-            }
-            return report;
-
-        }
-
-
-
-
-        //--------------------------------------- Delete User Details-------------------------------------------------------
-
 
         public Response Delete(int userId)
         {
@@ -218,42 +108,6 @@ namespace CompanyManagement.Data.Datas.Concrete
 
 
 
-
-        //--------------------------------------------Get Address Type--------------------------------------------
-        public IEnumerable<AddressType> GetAddressType()
-
-        {
-            DynamicParameters parameters = new DynamicParameters();
-            parameters.Add("@Status", 0, DbType.Int32, ParameterDirection.Output);
-            parameters.Add("@Message", "", DbType.String, ParameterDirection.Output);
-            //DynamicParameters parameters = CommonRepository.GetLogParameters();
-            var result = _idb_context.Query<AddressType>("Sp_Drop_AddressType", parameters, null, CommandType.StoredProcedure);
-            return result;
-        }
-
-
-
-
-     
-
-        //--------------------------------------------Get User Type------------------------------------------------
-
-        public List<IDictionary<string, object>> GetUserType()
-
-        {
-            //DynamicParameters parameters = CommonRepository.GetLogParameters();
-            DynamicParameters parameters = new DynamicParameters();
-            parameters.Add("@Status", 0, DbType.Int32, ParameterDirection.Output);
-            parameters.Add("@Message", "", DbType.String, ParameterDirection.Output);
-            var result = _idb_context.Query("Sp_Drop_UserType", parameters, null, CommandType.StoredProcedure).Cast<IDictionary<string, object>>().ToList();
-            return result;
-        }
-
-
-     
-
-
-        //---------------------------------------upload Profile by profile ID---------------------------------------
 
         public Response Upload(int profileid, string path, string msg)
 
@@ -296,7 +150,6 @@ namespace CompanyManagement.Data.Datas.Concrete
         }
 
 
-        //------------------------------------------ Delete Company by Company ID------------------------------------------------
 
         public Response DeleteCompany(int companyID)
 
@@ -363,6 +216,8 @@ namespace CompanyManagement.Data.Datas.Concrete
 
                 result.Data = _idb_context.Query<UserBasic>("GetUserBasic", parameters, commandType: CommandType.StoredProcedure);
                 result.TotalRecords = parameters.Get<int>("@totalRecords");
+                result.limit = limit;
+                result.startingRow = startingRow;
                 return result;
             }
             catch (SqlException ex)

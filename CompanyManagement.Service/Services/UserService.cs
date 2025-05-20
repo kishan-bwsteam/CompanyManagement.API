@@ -1,15 +1,15 @@
-﻿using Authentication.DataManager.Helper;
+﻿
 using CompanyManagement.Data.Datas.Abstract;
 using CompanyManagement.Data.Datas.Concrete;
 using CompanyManagement.Domain.Model;
 using CompanyManagement.Domain.Model.Common;
+using CompanyManagement.Service.Helper;
 using CompanyManagement.Services.Service.Abstract;
 
 using Dto.Model;
 using Dto.Model.Common;
 using Dto.Responses;
 using SqlDapper.Abstract;
-using SqlDapper.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -20,7 +20,7 @@ namespace CompanyManagement.Services.Service.Concrete
 {
     public class UserService : IUserService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
          
         private readonly IUserRepository _iuserRepository;
 
@@ -44,47 +44,6 @@ namespace CompanyManagement.Services.Service.Concrete
             }
         }
 
-        //--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
-
-        public userViewModels Get()
-        {
-            try
-            {
-                return _iuserRepository.Get();
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
-
-
-
-
-        //----------------------------------------- Get Single User by UserID-------------------------------------------------------
-
-        public singleUserResponseModel GetSingle(int userID)
-
-        {
-            singleUserResponseModel response = new singleUserResponseModel();
-            EncryptHelperObj _Obj = new EncryptHelperObj();
-            try
-            {
-                response = _iuserRepository.GetSingle(userID);
-                if (response.Status == 1)
-                {
-                    _Obj.SaltKey = response.SUDModel[0].SaltKey;
-                    _Obj.SaltKeyIV = response.SUDModel[0].SaltKeyIV;
-                    var result = EncryptHelper.Get_DecryptedPassword(_Obj, response.SUDModel[0].PassKey);
-                    response.SUDModel[0].Password = result;
-                }
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-            return response;
-        }
 
 
         //--------------------------------------- Delete User Details-------------------------------------------------------
@@ -103,55 +62,12 @@ namespace CompanyManagement.Services.Service.Concrete
 
 
 
-        //---------------------------------------upload Profile by profile ID---------------------------------------
-
         public Response Upload(int profileid, string path, string msg)
 
         {
             return _iuserRepository.Upload(profileid, path, msg);
 
         }
-
-
-
-        //--------------------------------------------Get User Type------------------------------------------------
-
-
-        public List<IDictionary<string, object>> GetUserType()
-        {
-            try
-            {
-                return _iuserRepository.GetUserType();
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
-
-
-        //--------------------------------------------Get Address Type--------------------------------------------
-
-        public IEnumerable<AddressType> GetAddressType()
-
-        {
-            try
-            {
-                return _iuserRepository.GetAddressType();
-            }
-            catch (Exception ex)
-            {
-                return null;
-            }
-        }
-
-
-
- 
-
-
-
-        //------------------------------------------ Delete Company by Company ID------------------------------------------------
 
 
 

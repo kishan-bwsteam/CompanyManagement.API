@@ -163,21 +163,11 @@
     "Parameters": [
       {
         "Name": "model",
-        "Type": "Dto.Model.MultiformModel",
+        "Type": "Dto.Model.AdminDetails",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.Common.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.API.Controllers.AdminController",
@@ -189,13 +179,50 @@
     "Parameters": [
       {
         "Name": "limit",
-        "Type": "System.Int32",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
       },
       {
         "Name": "startingRow",
-        "Type": "System.Int32",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.AdminController",
+    "Method": "GetAdminList",
+    "RelativePath": "api/Admin/{AdminId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.AdminController",
+    "Method": "Delete",
+    "RelativePath": "api/Admin/{AdminId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AdminId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -3921,26 +3948,6 @@
   },
   {
     "ContainingType": "CompanyManagement.Controllers.UserController",
-    "Method": "Get",
-    "RelativePath": "api/User",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Responses.userViewModels",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.UserController",
     "Method": "DeleteCompany",
     "RelativePath": "api/User/Company/{companyID}",
     "HttpMethod": "DELETE",
@@ -3967,36 +3974,6 @@
   },
   {
     "ContainingType": "CompanyManagement.Controllers.UserController",
-    "Method": "GetAddress",
-    "RelativePath": "api/User/GetAddressType",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.UserController",
-    "Method": "GetUserType",
-    "RelativePath": "api/User/GetUserType",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[System.Collections.Generic.IDictionary\u00602[[System.String, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.UserController",
     "Method": "Delete",
     "RelativePath": "api/User/User/{userId}",
     "HttpMethod": "DELETE",
@@ -4012,32 +3989,6 @@
     "ReturnTypes": [
       {
         "Type": "Dto.Model.Common.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.UserController",
-    "Method": "GetSingle",
-    "RelativePath": "api/User/User/{userID}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userID",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Responses.singleUserResponseModel",
         "MediaTypes": [
           "text/plain",
           "application/json",

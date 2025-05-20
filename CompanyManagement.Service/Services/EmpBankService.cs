@@ -1,5 +1,4 @@
-﻿using Authentication.DataManager.Helper;
-using Dapper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Datas.Concrete;
 using Dto.Model;
@@ -19,7 +18,7 @@ namespace Service.Concrete
 {
     public class EmpBankService : IEmpBankService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private IEmpBankRepository _empBankRepository;
         public EmpBankService(IEmpBankRepository empBankRepository)

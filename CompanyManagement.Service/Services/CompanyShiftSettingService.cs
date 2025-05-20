@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Datas.Abstract;
 using Dto.Model.Common;
 using Service.Abstract;
@@ -10,7 +10,7 @@ namespace Service.Concrete
 {
     public class CompanyShiftSettingService : ICompanyShiftSettingService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
        
 
         private readonly ICompanyShiftSettingRepository _icompanyShiftSettingRepository;

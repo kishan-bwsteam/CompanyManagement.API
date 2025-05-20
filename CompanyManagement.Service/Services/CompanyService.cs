@@ -1,4 +1,4 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using Dapper;
 using Datas.Abstract;
 using Datas.Concrete;
@@ -17,7 +17,7 @@ namespace Service.Concrete
 {
   public  class CompanyService : ICompanyService
     {
-        EncryptHelperObj obj = new EncryptHelperObj();
+        EncryptHelperModel obj = new EncryptHelperModel();
 
         private readonly ICompanyRepository _companyRepository;
 
@@ -55,7 +55,7 @@ namespace Service.Concrete
         //    }
         //}
 
-        public IEnumerable<CompanyModel> Get(int UserId,int limit = 10, int startingRow = 0)
+        public PaginatedResult<CompanyModel> Get(int UserId,int limit = 10, int startingRow = 0)
         {
             if (limit == 0)
             {
@@ -70,7 +70,7 @@ namespace Service.Concrete
                 filters.Columns.Add("condition", typeof(string));
                 filters.Columns.Add("val", typeof(string));
 
-                filters.Rows.Add("AND", "cB.UserID", "=", UserId);
+                filters.Rows.Add("AND", "UserID", "=", UserId);
             }
             var result = _companyRepository.Get(filters,limit,startingRow);
             return result;
@@ -85,11 +85,11 @@ namespace Service.Concrete
             filters.Columns.Add("condition", typeof(string));
             filters.Columns.Add("val", typeof(string));
 
-            filters.Rows.Add("AND", "cB.CompanyID", "=", companyId.ToString());
+            filters.Rows.Add("AND", "CompanyID", "=", companyId.ToString());
 
             var result =  _companyRepository.Get(filters, 1, 0);
 
-            return result.FirstOrDefault();
+            return result.Data.FirstOrDefault();
         }
 
         //---------------------------- Save Update Company -----------------------------

@@ -1,5 +1,6 @@
-﻿using Authentication.DataManager.Helper;
+﻿using CompanyManagement.Domain.Model;
 using CompanyManagement.Repository.Interface;
+using CompanyManagement.Service.Helper;
 using CompanyManagement.Service.Interface;
 using CompanyManagement.Services.Service.Abstract;
 using Datas.Abstract;
@@ -15,7 +16,7 @@ namespace CompanyManagement.Service.Services
 {
     public class EmployeeService : IEmployeeService
     {
-        private EncryptHelperObj obj = new EncryptHelperObj();
+        private EncryptHelperModel obj = new EncryptHelperModel();
 
         public readonly IDatabaseContext _idb_context;
         private readonly IEmployeeRepository _empRepo;
