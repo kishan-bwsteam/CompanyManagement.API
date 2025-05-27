@@ -38,15 +38,16 @@ namespace CompanyManagement.Controllers
 			
             var id = User.FindFirst("userID").Value;
             var actionBy = Int32.Parse(id);
+			model.ParentUserID = actionBy;
             var result = _userService.SaveUpdate(model, actionBy);
             return StatusCode(result.Status, result);
         }
 
         //--------------------------------------------Get User Type------------------------------------------------
   //      [HttpGet("GetUserType")]
-	
-		//public List<IDictionary<string, object>> GetUserType()                                   
-	 //   {
+
+		//public List<IDictionary<string, object>> GetUserType()
+		//{
 		//	try
 		//	{
 		//		return _userService.GetUserType();
@@ -61,7 +62,7 @@ namespace CompanyManagement.Controllers
 		////--------------------------------------------Get Address Type--------------------------------------------
 
 		//[HttpGet("GetAddressType")]
-		
+
 		//public IActionResult GetAddress()
 		//{
 		//	try
@@ -77,7 +78,7 @@ namespace CompanyManagement.Controllers
 		////--------------------------------------------------------Get All User Data by userViewModel (List)-----------------
 
 		//[HttpGet]
-		
+
 		//public userViewModels Get()
 		//{
 		//	try

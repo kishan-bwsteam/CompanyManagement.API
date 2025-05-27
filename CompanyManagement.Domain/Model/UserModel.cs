@@ -77,7 +77,7 @@ namespace Dto.Model
         public string MiddleName { get; set; }
         public string UserName { get; set; }
         public int? UserTypeID { get; set; }
-        public int ParentUserID { get; set; }
+        public int? ParentUserID { get; set; }
         public bool isActive { get; set; }
 
     }

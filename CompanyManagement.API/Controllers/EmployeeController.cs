@@ -27,7 +27,7 @@ namespace CompanyManagement.API.Controllers
             
             var id = User.FindFirst("userID").Value;
             emp.ActionBy = Int32.Parse(id);
-            //emp.UserBasic.ParentUserID = Int32.Parse(id);
+            emp.UserBasic.ParentUserID = Int32.Parse(id);
             var retObj = _empService.Create(emp);
             return Ok(retObj);
         }

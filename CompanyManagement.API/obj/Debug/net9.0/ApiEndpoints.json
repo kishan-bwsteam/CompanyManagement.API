@@ -1862,6 +1862,101 @@
     ]
   },
   {
+    "ContainingType": "CompanyManagement.API.Controllers.HolidayController",
+    "Method": "SaveUpdate",
+    "RelativePath": "api/Holiday",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CompanyManagement.Domain.Model.HolidayModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.HolidayController",
+    "Method": "Delete",
+    "RelativePath": "api/Holiday/{holidayId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "holidayId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.HolidayController",
+    "Method": "GetByHolidayId",
+    "RelativePath": "api/Holiday/{HolidayId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HolidayId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.HolidayController",
+    "Method": "Get",
+    "RelativePath": "api/Holiday/company/{companyID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startingRow",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.API.Controllers.HolidayController",
+    "Method": "Get",
+    "RelativePath": "api/Holiday/Employee",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CompanyManagement.Controllers.JoiningLetter.JoiningLetterController",
     "Method": "Gerenate",
     "RelativePath": "api/JoiningLetter",
@@ -1915,34 +2010,35 @@
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "Update",
+    "Method": "UpdateStatus",
     "RelativePath": "api/Leave",
-    "HttpMethod": "PUT",
+    "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "Accept",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "leaveRequestID",
-        "Type": "System.Int32",
-        "IsRequired": false
+        "Name": "lModel",
+        "Type": "CompanyManagement.Domain.RequestDTO.ChangeLeaveStatusModel",
+        "IsRequired": true
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.Controllers.LeaveController",
+    "Method": "GetByLeaveId",
+    "RelativePath": "api/Leave/{LeaveId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "Dto.Model.Common.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
+        "Name": "LeaveId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
@@ -1972,75 +2068,60 @@
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetAll",
-    "RelativePath": "api/Leave/Company/{CompanyID}",
+    "Method": "GetByAdminId",
+    "RelativePath": "api/Leave/Admin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "CompanyID",
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startingRow",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CompanyManagement.Controllers.LeaveController",
+    "Method": "GetByCompanyId",
+    "RelativePath": "api/Leave/Company/{CompanyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CompanyId",
         "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startingRow",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.LeaveViewModels",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetApp",
-    "RelativePath": "api/Leave/GetApp",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.ReasonViewModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetAtt",
-    "RelativePath": "api/Leave/GetAtt",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "model",
-        "Type": "Dto.Model.LeaveModel",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.Common.Response",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
@@ -2064,75 +2145,39 @@
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetSingle",
-    "RelativePath": "api/Leave/GetSingle/{leaveRequestID}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "leaveRequestID",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.SingleApproveLeave",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetStatus",
-    "RelativePath": "api/Leave/GetStatus",
+    "Method": "GetLeaveStatus",
+    "RelativePath": "api/Leave/status",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.StatusViewModel",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.LeaveController",
-    "Method": "GetAllUser",
-    "RelativePath": "api/Leave/User/{userID}",
+    "Method": "GetByUserId",
+    "RelativePath": "api/Leave/User",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userID",
-        "Type": "System.Int32",
-        "IsRequired": true
+        "Name": "limit",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "startingRow",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "Dto.Model.LeaveViewModels",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "CompanyManagement.Controllers.Letter_Template.LetterController",

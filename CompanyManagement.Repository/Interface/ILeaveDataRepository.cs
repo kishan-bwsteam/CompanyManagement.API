@@ -1,6 +1,8 @@
 ﻿
+using CompanyManagement.Domain.Model;
 using Dto.Model;
 using Dto.Model.Common;
+using System.Data;
 
 
 namespace Datas.Abstract
@@ -10,12 +12,15 @@ namespace Datas.Abstract
 
         //--------------------------------------------Save Update Leave-------------------------------------
 
+        PaginatedResult<LeaveRequestResponse> Get(DataTable filters, int limit, int startingRow);
+        IEnumerable<LeaveStaus> GetLeaveStaus();
         Response SaveUpdate(LeaveModel model);
 
+        Response UpdateStatus(int statusId, int leaveId, int actionBy);
 
 
         //-------------------------------------------Get All Leave by UserID------------------------------------------
-           LeaveViewModels GetAllUser(int userID);
+        LeaveViewModels GetAllUser(int userID);
 
 
         //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------

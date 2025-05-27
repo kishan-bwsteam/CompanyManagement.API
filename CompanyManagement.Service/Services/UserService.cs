@@ -86,8 +86,6 @@ namespace CompanyManagement.Services.Service.Concrete
 
 
 
-
-
         public UserBasic GetByUserId(int UserId)
         {
             DataTable filters = new DataTable("filter_type");

@@ -1,4 +1,6 @@
 ﻿using BussinessObject;
+using CompanyManagement.Domain.Model;
+using CompanyManagement.Domain.RequestDTO;
 using Dto.Model;
 using Dto.Model.Common;
 using System;
@@ -12,44 +14,20 @@ namespace Service.Abstract
     public interface ILeaveService
     {
         //--------------------------------------------Save Update Leave-------------------------------------
+        IEnumerable<LeaveStaus> GetLeaveStatus();
+        LeaveRequestResponse GetByLeaveId(int LeaveRequestId);
+        // Interface
+        PaginatedResult<LeaveRequestResponse> GetByCompanyId(int companyId, int limit, int startingRow, string search);
+        PaginatedResult<LeaveRequestResponse> GetByAdminId(int adminId, int limit, int startingRow, string search);
+        PaginatedResult<LeaveRequestResponse> GetByUserId(int userId, int limit, int startingRow, string search);
+
+        Response UpdateStatus(ChangeLeaveStatusModel lModel, int actionBy);
 
 
         Response SaveUpdate(LeaveModel model);
 
-
-
-        //-------------------------------------------Get All Leave by userid--------------------------------------------
-       LeaveViewModels GetAllUser(int userID);
-
-
-
-        //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------
-        LeaveViewModels GetAll(int companyID);
-
-        //------------------------------------------Update Approval Leave-------------------------------------------
-        Response Update(int Accept, int leaveRequestID);
-
-        //------------------------------------------ Get Status Dropdown by StatusViewModel-----------------------------
-        StatusViewModel GetStatus();
-
-        //------------------------------------------ Get Reason Dropdown by ReasonViewModel-----------------------------
-
         ReasonViewModel GetReason();
 
-
-        //------------------------------------------ Get Approval  by ReasonViewModel-----------------------------
-        ReasonViewModel GetApp();
-
-
-
-        //------------------------------------------ Get Attachment (upload file)  -----------------------------
-        Response GetAtt(LeaveModel model);
-
-
-        //---------------------------------------------Get Single Approve Leave model List by SingleApproveLeave-----------------------------------
-        SingleApproveLeave GetSingle(int leaveRequestID);
-
-        //-------------------------------------------- Delete Leave Request by leave Request ID------------------------------------------------------- 
 
         Response Delete(int leaveRequestID);
 

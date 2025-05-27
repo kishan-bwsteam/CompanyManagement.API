@@ -26,6 +26,44 @@ namespace Dto.Model
         public int LeaveRequestAttachmentID { get; set; }
     }
 
+    public class LeaveRequestResponse
+    {
+        // Company Info
+        public int CompanyID { get; set; }
+        public string CompanyGuid { get; set; }
+        public string CompanyName { get; set; }
+
+        // Employee Info
+        public string EmpCode { get; set; }
+        public string UserName { get; set; }
+        public string EmpFullName { get; set; }
+        public int DepartmentID { get; set; }
+        public string DepartmentName { get; set; }
+        public int RoleID { get; set; }
+        public string RoleName { get; set; }
+        public int EmployeeStatusID { get; set; }
+        public string StatusName { get; set; }
+
+        // Leave Request Info
+        public int LeaveRequestID { get; set; }
+        public int LeaveStatusId { get; set; }
+        public string LeaveStatusName { get; set; }
+        public DateTime FromDate { get; set; }
+        public DateTime ToDate { get; set; }
+        public int LeaveReasonId { get; set; }
+        public string ReasonName { get; set; }
+
+        // Leave Detail
+        public DateTime LeaveDate { get; set; }
+        public string AttachmentName { get; set; }
+    }
+    public class LeaveStaus
+    {
+        public int LeaveStatusId { get; set; }
+        public string StatusName { get; set; }
+    }
+
+
     //---------------------------------------------------------Leave Model List---------------------------------------
 
     public class LeaveViewModels : Response

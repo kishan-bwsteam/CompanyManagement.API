@@ -72,5 +72,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\aea2a85a-ba68-45ad-913a-e5f361702b55.jfif'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\b1e24eb4-af6a-4daa-83b4-1c18fe093444.jfif'))">
+      <SourceType>Package</SourceType>
+      <SourceId>CompanyManagement.API</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/CompanyManagement.API</BasePath>
+      <RelativePath>upload/b1e24eb4-af6a-4daa-83b4-1c18fe093444.jfif</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eyrgj6jvzt</Fingerprint>
+      <Integrity>elPeembsIwf8rJ6Ul4rMakzGOFfinImrypSdD38OVzI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\upload\b1e24eb4-af6a-4daa-83b4-1c18fe093444.jfif'))</OriginalItemSpec>
+    </StaticWebAsset>
   </ItemGroup>
 </Project>

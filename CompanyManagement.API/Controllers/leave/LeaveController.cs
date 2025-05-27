@@ -1,4 +1,5 @@
 ﻿
+using CompanyManagement.Domain.RequestDTO;
 using Dto.Model;
 using Dto.Model.Common;
 using Microsoft.AspNetCore.Mvc;
@@ -22,6 +23,37 @@ namespace CompanyManagement.Controllers
         }
 
         //--------------------------------------------Save Update Leave-------------------------------------
+        [HttpGet("{LeaveId}")]
+        public IActionResult GetByLeaveId(int LeaveId)
+        {
+            var res = _ileaveService.GetByLeaveId(LeaveId);
+            return Ok(res);
+        }
+        [HttpGet("Company/{CompanyId}")]
+        public IActionResult GetByCompanyId(int CompanyId, [FromQuery] int? limit, [FromQuery] int? startingRow, [FromQuery] string? search)
+        {
+            var res = _ileaveService.GetByCompanyId(CompanyId, limit.GetValueOrDefault(10), startingRow.GetValueOrDefault(0), search);
+            return Ok(res);
+        }
+
+        [HttpGet("Admin")]
+        public IActionResult GetByAdminId([FromQuery] int? limit, [FromQuery] int? startingRow, [FromQuery] string? search)
+        {
+            var id = User.FindFirst("userID").Value;
+            var AdminId = Int32.Parse(id);
+            var res = _ileaveService.GetByAdminId(AdminId, limit.GetValueOrDefault(10), startingRow.GetValueOrDefault(0), search);
+            return Ok(res);
+        }
+
+        [HttpGet("User")]
+        public IActionResult GetByUserId([FromQuery] int? limit, [FromQuery] int? startingRow, [FromQuery] string? search)
+        {
+            var id = User.FindFirst("userID").Value;
+            var UserId = Int32.Parse(id);
+            var res = _ileaveService.GetByUserId(UserId, limit.GetValueOrDefault(10), startingRow.GetValueOrDefault(0), search);
+            return Ok(res);
+        }
+
 
         [HttpPost]
      
@@ -37,99 +69,22 @@ namespace CompanyManagement.Controllers
             }
         }
 
-        //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------
-
-
-        [HttpGet ("User/{userID}")]
-        public LeaveViewModels GetAllUser(int userID)
+        [HttpPatch]
+        public IActionResult UpdateStatus(ChangeLeaveStatusModel lModel)
         {
-            try
-            {
-                return _ileaveService.GetAllUser(userID);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            var id = User.FindFirst("userID").Value;
+            var UserId = Int32.Parse(id);
+            var res = _ileaveService.UpdateStatus(lModel,UserId);
+            return Ok(res);
         }
-
-
-
-
-        //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------
-
-
-        [HttpGet("Company/{CompanyID}")]
-        public LeaveViewModels GetAll(int CompanyID)
+        [HttpGet("status")]
+        public IActionResult GetLeaveStatus()
         {
-            try
-            {
-                return _ileaveService.GetAll(CompanyID);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
+            var res = _ileaveService.GetLeaveStatus();
+            return Ok(res);
         }
-
-
-
-
-        //---------------------------------------------Get Single Approve Leave model List by SingleApproveLeave-----------------------------------
-
-        [HttpGet("GetSingle/{leaveRequestID}")]
-     //   [Route("GetSingleApproveLeave/{leaveRequestID}")]
-        public SingleApproveLeave GetSingle(int leaveRequestID)
-        {
-            try
-            {
-                return _ileaveService.GetSingle(leaveRequestID);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-
-        //------------------------------------------Update Approval Leave-------------------------------------------
-
-        [HttpPut]
-       
-        public Response Update(int Accept, int leaveRequestID)
-        {
-            try
-            {
-                return _ileaveService.Update(Accept, leaveRequestID);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-
-        //------------------------------------------ Get Status Dropdown by StatusViewModel-----------------------------
-
-
-        [HttpGet("GetStatus/")]
-      
-        public StatusViewModel GetStatus()
-        {
-            try
-            {
-                return _ileaveService.GetStatus();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        //------------------------------------------ Get Reason Dropdown by ReasonViewModel-----------------------------
 
         [HttpGet("GetReason/")]
-     
 
         public ReasonViewModel GetReason()
         {
@@ -142,48 +97,138 @@ namespace CompanyManagement.Controllers
                 throw ex;
             }
         }
+        //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------
+
+
+        //   [HttpGet ("User/{userID}")]
+        //   public LeaveViewModels GetAllUser(int userID)
+        //   {
+        //       try
+        //       {
+        //           return _ileaveService.GetAllUser(userID);
+        //       }
+        //       catch (Exception ex)
+        //       {
+        //           throw ex;
+        //       }
+        //   }
 
 
 
-        //------------------------------------------ Get Approval  by ReasonViewModel-----------------------------
 
-        [HttpGet("GetApp/")]
-       //[Route("GetApp/")]
-
-        public ReasonViewModel GetApp()
-        {
-            try
-            {
-                return _ileaveService.GetApp();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
+        //   //-------------------------------------------Get All Leave by LeaveViewModels--------------------------------------------------
 
 
-        //------------------------------------------ Get Attachment (upload file)  -----------------------------
+        //   [HttpGet("Company/{CompanyID}")]
+        //   public LeaveViewModels GetAll(int CompanyID)
+        //   {
+        //       try
+        //       {
+        //           return _ileaveService.GetAll(CompanyID);
+        //       }
+        //       catch (Exception ex)
+        //       {
+        //           throw ex;
+        //       }
+        //   }
 
-        [HttpGet("GetAtt/")]
-        //[Route("GetAtt/")]
-        public Response GetAtt(LeaveModel model)
-        {
-            try
-            {
-                return _ileaveService.GetAtt(model);
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
+
+
+
+        //   //---------------------------------------------Get Single Approve Leave model List by SingleApproveLeave-----------------------------------
+
+        //   [HttpGet("GetSingle/{leaveRequestID}")]
+        ////   [Route("GetSingleApproveLeave/{leaveRequestID}")]
+        //   public SingleApproveLeave GetSingle(int leaveRequestID)
+        //   {
+        //       try
+        //       {
+        //           return _ileaveService.GetSingle(leaveRequestID);
+        //       }
+        //       catch (Exception ex)
+        //       {
+        //           throw ex;
+        //       }
+        //   }
+
+
+        //------------------------------------------Update Approval Leave-------------------------------------------
+
+        // [HttpPut]
+
+        // public Response Update(int Accept, int leaveRequestID)
+        // {
+        //     try
+        //     {
+        //         return _ileaveService.Update(Accept, leaveRequestID);
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw ex;
+        //     }
+        // }
+
+
+        // //------------------------------------------ Get Status Dropdown by StatusViewModel-----------------------------
+
+
+        // [HttpGet("GetStatus/")]
+
+        // public StatusViewModel GetStatus()
+        // {
+        //     try
+        //     {
+        //         return _ileaveService.GetStatus();
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw ex;
+        //     }
+        // }
+
+        // //------------------------------------------ Get Reason Dropdown by ReasonViewModel-----------------------------
+
+
+
+        // //------------------------------------------ Get Approval  by ReasonViewModel-----------------------------
+
+        // [HttpGet("GetApp/")]
+        ////[Route("GetApp/")]
+
+        // public ReasonViewModel GetApp()
+        // {
+        //     try
+        //     {
+        //         return _ileaveService.GetApp();
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw ex;
+        //     }
+        // }
+
+
+        // //------------------------------------------ Get Attachment (upload file)  -----------------------------
+
+        // [HttpGet("GetAtt/")]
+        // //[Route("GetAtt/")]
+        // public Response GetAtt(LeaveModel model)
+        // {
+        //     try
+        //     {
+        //         return _ileaveService.GetAtt(model);
+        //     }
+        //     catch (Exception ex)
+        //     {
+        //         throw ex;
+        //     }
+        // }
 
 
         //-------------------------------------------- Delete Leave Request by leave Request ID------------------------------------------------------- 
 
 
-     [HttpDelete("{leaveRequestID}")]
+        [HttpDelete("{leaveRequestID}")]
         public Response Delete(int leaveRequestID)
         {
             try
